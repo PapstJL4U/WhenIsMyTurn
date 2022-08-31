@@ -1,4 +1,4 @@
-
+"""Just the list of frame data websites"""
 Anji: str = "https://www.dustloop.com/w/GGST/Anji_Mito/Frame_Data"
 Bridget: str = "https://www.dustloop.com/w/GGST/Bridget/Frame_Data"
 Giovanna: str = "https://www.dustloop.com/w/GGST/Giovanna/Frame_Data"
@@ -20,4 +20,3 @@ Ky_Kiske: str = "https://www.dustloop.com/w/GGST/Ky_Kiske/Frame_Data"
 Millia: str = "https://www.dustloop.com/w/GGST/Millia_Rage/Frame_Data"
 Ramlethal: str = "https://www.dustloop.com/w/GGST/Ramlethal_Valentine/Frame_Data"
 Zato_1: str = "https://www.dustloop.com/w/GGST/Zato-1/Frame_Data"
-
