@@ -6,7 +6,7 @@ import requests
 
 def find_Moves(website:str)->pd.DataFrame:
         """opens the full framedata website and finds normals, specials, overdrives and other moves"""
-        folder = r".res"
+        folder = r"res"
         name = website.split("/")[-2]
 
         try:
