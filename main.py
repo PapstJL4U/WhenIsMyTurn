@@ -34,12 +34,12 @@ def single(dl_name:str)->None:
         
     name = dl_name.split("/")[-2]
     normal, specials , overdrives, others = wf.find_Moves(dl_name)
-    data = [[0]*3]*4
+    data = [ [0]*3 for i in range(4)]
     breakpoint()
-    data[0][0], data[0][1] = minus_on_Block(normal ,"Normals", name)
-    data[1][0], data[1][1] = minus_on_Block(specials ,"Specials", name)
-    data[2][0], data[2][1] = minus_on_Block(overdrives ,"Overdrives", name)
-    data[3][0], data[3][1] = minus_on_Block(others ,"Other", name)
+    n_minus,n_all = minus_on_Block(normal ,"Normals", name)
+    c,d = minus_on_Block(specials ,"Specials", name)
+    e,f = minus_on_Block(overdrives ,"Overdrives", name)
+    g,h = minus_on_Block(others ,"Other", name)
     breakpoint()
     print()
 
