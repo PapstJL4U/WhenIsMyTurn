@@ -2,7 +2,6 @@
 from re import I
 from sre_constants import CH_LOCALE
 
-
 Anji: str = "https://www.dustloop.com/w/GGST/Anji_Mito/Frame_Data"
 Bridget: str = "https://www.dustloop.com/w/GGST/Bridget/Frame_Data"
 Giovanna: str = "https://www.dustloop.com/w/GGST/Giovanna/Frame_Data"
@@ -24,7 +23,6 @@ Ky_Kiske: str = "https://www.dustloop.com/w/GGST/Ky_Kiske/Frame_Data"
 Millia: str = "https://www.dustloop.com/w/GGST/Millia_Rage/Frame_Data"
 Ramlethal: str = "https://www.dustloop.com/w/GGST/Ramlethal_Valentine/Frame_Data"
 Zato_1: str = "https://www.dustloop.com/w/GGST/Zato-1/Frame_Data"
-
 
 characters = (Anji, Bridget, Giovanna, I_No, Leo, Nagoriyuki, Sol, Axl, Chipp, Goldlewis, Jack_O, May,
                 Potemkin, Testament, Faust, Baiken, Happy_Chaos, Ky_Kiske, Millia, Ramlethal, Zato_1)
