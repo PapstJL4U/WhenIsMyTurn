@@ -32,6 +32,10 @@ def all():
     
     #breakpoint()
     pp.pprint(super_data)
+    col = ['Moves Minus onBlock', 'All Moves', 'Percentage']
+    types= ['Normals', 'Specials', 'Overdrives', 'Other', "Sum"]
+    df = pd.DataFrame(super_data, index=types, columns=col)
+    df.to_html(r"res/all.html")
 
 def single(dl_name:str)->list:
     """Get data for a single character"""
