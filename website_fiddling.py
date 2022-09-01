@@ -6,6 +6,9 @@ import requests
 
 def find_Moves(website:str)->pd.DataFrame:
         """opens the full framedata website and finds normals, specials, overdrives and other moves"""
+        folder = r".res"
+        name = website.split("/")[-2]
+
         try:
         #load website and find the 4 tables
             text = requests.get(website).text
@@ -21,27 +24,30 @@ def find_Moves(website:str)->pd.DataFrame:
         #find the data of every move and fill the data in the dataframe
         normal_moves = tables[0].find("tbody").findAll("tr")
         normal_data_frame= fill_data_frame(normal_moves,normal_data_frame)
-        #normal_data_frame.to_html('normals.html')
 
         #Do the same for the other tables
         special_moves_row_caption = tables[1].find("thead").findAll("th")
         special_data_frame = get_data_frame_from_list(special_moves_row_caption[1:])
         special_moves = tables[1].find("tbody").findAll("tr")
         special_data_frame= fill_data_frame(special_moves,special_data_frame)
-        #special_data_frame.to_html('specials.html')
         
         overdrive_moves_row_caption = tables[2].find("thead").findAll("th")
         overdrive_data_frame = get_data_frame_from_list(overdrive_moves_row_caption[1:])
         overdrive_moves = tables[2].find("tbody").findAll("tr")
         overdrive_data_frame= fill_data_frame(overdrive_moves,overdrive_data_frame)
-        #overdrive_data_frame.to_html('overdrives.html')
 
         other_moves_row_caption = tables[3].find("thead").findAll("th")
         other_data_frame = get_data_frame_from_list(other_moves_row_caption[1:])
         other_moves = tables[3].find("tbody").findAll("tr")
         other_data_frame= fill_data_frame(other_moves,other_data_frame)
-        #other_data_frame.to_html('others.html')
-
+        
+        try:
+            other_data_frame.to_html(folder+"/"+name+"_others.html")
+            normal_data_frame.to_html(folder+"/"+name+"_normals.html")
+            special_data_frame.to_html(folder+"/"+name+"_specials.html")
+            overdrive_data_frame.to_html(folder+"/"+name+"_overdrives.html")
+        except Exception:
+            print(Exception)
         return normal_data_frame, special_data_frame, overdrive_data_frame, other_data_frame
 
 def get_data_frame_from_list(list: list[str])->pd.DataFrame:
