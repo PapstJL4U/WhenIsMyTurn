@@ -59,8 +59,8 @@ def all()->None:
 
     #create and save the overall data
     df = pd.DataFrame(super_data, index=types, columns=col)
-    df.to_html(r"res/summary_"+__types+".html")
-    df.to_csv(r"res/summary_"+__types+".csv")
+    df.to_html(r"res/summary_"+str(__types)+".html")
+    df.to_csv(r"res/summary_"+str(__types)+".csv")
 
     #it is interessting to find the best/worst character for each type of moves
     col.insert(0,"Character")
@@ -72,8 +72,8 @@ def all()->None:
     remap = dict(zip(types, index_to_name))
     extr["Character"].update(pd.Series(remap))
     
-    extr.to_html(r"res/"+maximum+"_extremes"+__types+".html")
-    extr.to_csv(r"res/"+maximum+"_extremes"+__types+".csv")
+    extr.to_html(r"res/"+maximum+"_extremes_"+str(__types)+".html")
+    extr.to_csv(r"res/"+maximum+"_extremes_"+str(__types)+".csv")
 
 def single(dl_name:str)->list:
     """Get data for a single character"""
@@ -123,5 +123,4 @@ def find_min_or_max_minus_frames(name_index:int=0, char:str="+", extremes:np.arr
     return extremes
 
 if __name__ == "__main__":
-        #single(dl.Ramlethal)
         all()
