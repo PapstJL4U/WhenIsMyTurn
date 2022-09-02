@@ -69,11 +69,11 @@ def fill_data_frame(list:list[str], df:pd.DataFrame)->pd.DataFrame:
                     value.contents[0]=="N/A" or \
                     value.contents[0]=="NA" or \
                     value.contents[0]=="n/a":
-                    move.append("u")
+                    move.append("var")
                 else:
                     move.append(strip_wn(str(value.contents[0])))
             elif i>0:
-                move.append("u")
+                move.append("no data")
         moves.append(move)
 
     return pd.DataFrame(moves, columns=df.columns)

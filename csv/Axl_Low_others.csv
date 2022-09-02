@@ -1,4 +1,4 @@
 name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-Ground Throw,80,Ground Throw,2,3,38,u,HKD +41,u,2500,u,u,u,50%
-Air Throw,80,Air Throw,2,3,Until L+10,u,HKD,u,2500,u,u,u,50%
-Dash Cancel,u,u,u,u,Total 26,u,u,u,u,u,u,u,u
+Ground Throw,80,Ground Throw,2,3,38,no data,HKD +41,no data,2500,no data,no data,no data,50%
+Air Throw,80,Air Throw,2,3,Until L+10,no data,HKD,no data,2500,no data,no data,no data,50%
+Dash Cancel,no data,no data,no data,no data,Total 26,no data,no data,no data,no data,no data,no data,no data,no data

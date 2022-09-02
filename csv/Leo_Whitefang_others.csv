@@ -1,10 +1,10 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-6D or 4D,Ground Throw,80,Ground Throw,2,3,38,u,HKD +50,u,2500,u,u,u,50%
-j.6D or j.4D,Air Throw,80,Air Throw,2,3,Until L+10,u,u,u,2500,u,u,u,50%
-66,Dash Cancel,u,u,u,u,Total 22,u,u,u,u,u,u,u,u
-bt.P,u,30,All,7,4,12,-2 [+2],13,1500,1000,2,Mid,1-10 Upper Body,90%
-bt.K,u,24,Low,5,3,6,+3 [+0],+6,750,1000,1,Small,u,70%
-bt.S,u,28,All,6,6,14,-3 [+5],0,2000,1000,3,Mid,u,90%
-bt.H,u,42,High,18,4,22,-6 [+5],KD,1875,2000,4,Mid,u,80%
-bt.D,Kahn Schild,74,All,3,17,Total 37F,u,u,u,2500,u,u,1-2 Strike/Projectile 3-19 Parry,50%
-bt.22,Brynhildr Cancel,u,u,-,u,Total 11F,u,u,u,u,u,u,u,u
+6D or 4D,Ground Throw,80,Ground Throw,2,3,38,no data,HKD +50,no data,2500,no data,no data,no data,50%
+j.6D or j.4D,Air Throw,80,Air Throw,2,3,Until L+10,no data,no data,no data,2500,no data,no data,no data,50%
+66,Dash Cancel,no data,no data,no data,no data,Total 22,no data,no data,no data,no data,no data,no data,no data,no data
+bt.P,no data,30,All,7,4,12,-2 [+2],13,1500,1000,2,Mid,1-10 Upper Body,90%
+bt.K,no data,24,Low,5,3,6,+3 [+0],+6,750,1000,1,Small,no data,70%
+bt.S,no data,28,All,6,6,14,-3 [+5],0,2000,1000,3,Mid,no data,90%
+bt.H,no data,42,High,18,4,22,-6 [+5],KD,1875,2000,4,Mid,no data,80%
+bt.D,Kahn Schild,74,All,3,17,Total 37F,no data,no data,no data,2500,no data,no data,1-2 Strike/Projectile 3-19 Parry,50%
+bt.22,Brynhildr Cancel,no data,no data,-,no data,Total 11F,no data,no data,no data,no data,no data,no data,no data,no data

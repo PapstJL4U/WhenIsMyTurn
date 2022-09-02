@@ -1,14 +1,14 @@
 Input,Name,Damage,Guard,Startup,Active,Recovery,On-Block,On-Hit,R.I.S.C. Gain,R.I.S.C. Loss,Attack Level,Counter Type,Invuln,Proration
-236P,Summon Servant,u,-,10,u,Total 25,u,u,u,u,u,u,none,u
-236[P],Summon Servant,u,-,u,u,Total 14,u,u,u,u,u,u,none,u
-2P (near Servant),Pick Up Servant,u,-,u,u,Total 14,u,u,u,u,u,u,none,u
-6P/6K/6S/6H/6D while holding Servant,Throw Servant,30,All,12,u,Total 27,+5,+8,500,1000,0,Very Small,none,70%
-D while holding Servant,Release Servant,u,-,u,u,Total 11,u,u,u,u,u,u,none,u
-214P,Recover Servant,u,-,3+7,u,Total 19,See Notes,u,u,u,u,u,none,u
+236P,Summon Servant,no data,-,10,no data,Total 25,no data,no data,no data,no data,no data,no data,none,no data
+236[P],Summon Servant,no data,-,no data,no data,Total 14,no data,no data,no data,no data,no data,no data,none,no data
+2P (near Servant),Pick Up Servant,no data,-,no data,no data,Total 14,no data,no data,no data,no data,no data,no data,none,no data
+6P/6K/6S/6H/6D while holding Servant,Throw Servant,30,All,12,no data,Total 27,+5,+8,500,1000,0,Very Small,none,70%
+D while holding Servant,Release Servant,no data,-,no data,no data,Total 11,no data,no data,no data,no data,no data,no data,none,no data
+214P,Recover Servant,no data,-,3+7,no data,Total 19,See Notes,no data,no data,no data,no data,no data,none,no data
 214K,Attack Command,50,All,3+9,6,Total 23,+15,KD,500,2000,2,Very Small,none,80%
-214S,Defend Command,33,-,3+1,34,Total 24,u,+31,u,1000,u,u,none,80%
-S while holding Servant,Held Defend Command,33,-,3+1,28,Total 24,u,+31,u,1000,u,u,none,80%
+214S,Defend Command,33,-,3+1,34,Total 24,no data,+31,no data,1000,no data,no data,none,80%
+S while holding Servant,Held Defend Command,33,-,3+1,28,Total 24,no data,+31,no data,1000,no data,no data,none,80%
 214H,Countdown,80,All,3+180+26,19,Total 24,See Notes,KD,500,1000,3,Very Small,none,80%
 236K,Servant Shoot,31,All,15,4,25,-12,KD,2000,1000,3,Mid,none,100%
-Bounced Servant,Servant,30,All,5+1,u,u,u,u,500,1000,0,Very Small,none,80%
-Launched Servant,Servant,45 [50],All,5+1,u,u,-6,-3,500,1000,0,Very Small,none,80%
+Bounced Servant,Servant,30,All,5+1,no data,no data,no data,no data,500,1000,0,Very Small,none,80%
+Launched Servant,Servant,45 [50],All,5+1,no data,no data,-6,-3,500,1000,0,Very Small,none,80%

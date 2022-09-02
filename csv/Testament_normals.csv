@@ -1,20 +1,20 @@
 input,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-5P,24,All,6,3,9,-2,+1,500,1500,0,Small,u,80%
-5K,28,All,7,4,11,-3,0,1000,1000,1,Small,u,90%
-c.S,39,All,8,6,10,+1,+4,2000,1000,3,Mid,u,100%
-f.S,33,All,12,3,18,-7,-4,1500,1000,2,Mid,u,90%
-5H,46,All,13,2,25,-8,KD,2500,1000,4,Large,u,100%
-5D,45,High,20~28,3,26,-15,±0,1125,3000,2,Mid,u,80%
-5[D],56,High,28,3,26,-10,KD (+36),1875,1500,2,Mid,u,100%
+5P,24,All,6,3,9,-2,+1,500,1500,0,Small,no data,80%
+5K,28,All,7,4,11,-3,0,1000,1000,1,Small,no data,90%
+c.S,39,All,8,6,10,+1,+4,2000,1000,3,Mid,no data,100%
+f.S,33,All,12,3,18,-7,-4,1500,1000,2,Mid,no data,90%
+5H,46,All,13,2,25,-8,KD,2500,1000,4,Large,no data,100%
+5D,45,High,20~28,3,26,-15,±0,1125,3000,2,Mid,no data,80%
+5[D],56,High,28,3,26,-10,KD (+36),1875,1500,2,Mid,no data,100%
 6P,31,All,11,6,15,-7,KD,1500,1000,2,Mid,1~3 Upper Body,90%
-6H,61,All,23,6,32,-19,KD,2500,1000,4,Large,u,100%
-2P,22,All,5,3,10,-3,0,500,1500,0,Small,u,80%
-2K,28,Low,6,2,13,-3,0,750,1000,1,Small,u,70%
-2S,30,Low,10,3,18,-7,-4,1125,1000,2,Mid,u,90%
-2H,49,All,23,9,12,-2,KD,2500,1000,4,Large,u,100%
-2D,32,Low,14,3,22,-8,KD,1500,1000,3,Large,u,90%
-j.P,19,High,6,4,10,u,u,375,1000,0,Small,u,80%
-j.K,25,High,8,2,12,u,u,750,1000,1,Small,u,80%
-j.S,31,High,9,3,19,u,u,1125,1000,2,Mid,u,80%
-j.H,40,High,13,5,16,u,u,1125,1000,2,Mid,u,80%
-j.D,46,High,12,6,22,u,u,1125,1000,2,Mid,u,80%
+6H,61,All,23,6,32,-19,KD,2500,1000,4,Large,no data,100%
+2P,22,All,5,3,10,-3,0,500,1500,0,Small,no data,80%
+2K,28,Low,6,2,13,-3,0,750,1000,1,Small,no data,70%
+2S,30,Low,10,3,18,-7,-4,1125,1000,2,Mid,no data,90%
+2H,49,All,23,9,12,-2,KD,2500,1000,4,Large,no data,100%
+2D,32,Low,14,3,22,-8,KD,1500,1000,3,Large,no data,90%
+j.P,19,High,6,4,10,no data,no data,375,1000,0,Small,no data,80%
+j.K,25,High,8,2,12,no data,no data,750,1000,1,Small,no data,80%
+j.S,31,High,9,3,19,no data,no data,1125,1000,2,Mid,no data,80%
+j.H,40,High,13,5,16,no data,no data,1125,1000,2,Mid,no data,80%
+j.D,46,High,12,6,22,no data,no data,1125,1000,2,Mid,no data,80%

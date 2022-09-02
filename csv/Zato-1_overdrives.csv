@@ -1,4 +1,4 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-632146H,Amorphous,150,All,8+8,u,u,+12,u,500,1000,4,u,u,100%
-632146S,Sun Void,20×3,All,11+14,u,u,u,u,100×3,1000,4,u,u,100%
-j.632146S,Sun Void,20×3,All,11+14,u,u,u,u,100×3,1000,4,u,u,100%
+632146H,Amorphous,150,All,8+8,no data,no data,+12,no data,500,1000,4,no data,no data,100%
+632146S,Sun Void,20×3,All,11+14,no data,no data,no data,no data,100×3,1000,4,no data,no data,100%
+j.632146S,Sun Void,20×3,All,11+14,no data,no data,no data,no data,100×3,1000,4,no data,no data,100%

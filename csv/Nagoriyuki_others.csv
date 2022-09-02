@@ -1,5 +1,5 @@
 name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-BR Activation,u,Guard Crush,4+38+3,10,70,-12,HKD,5,1000,u,u,1~15f Full after freeze,u
-BR Deactivation,u,u,1+59,u,0,u,u,u,u,u,u,1F Full,u
-Ground Throw,90,120,2,3,38,u,HKD +41,u,2500,u,u,u,50%
-Air Throw,90,200,2,3,Until landing+10,u,HKD,u,2500,u,u,u,50%
+BR Activation,var,Guard Crush,4+38+3,10,70,-12,HKD,5,1000,no data,no data,1~15f Full after freeze,no data
+BR Deactivation,var,var,1+59,var,0,var,var,no data,no data,no data,no data,1F Full,no data
+Ground Throw,90,120,2,3,38,var,HKD +41,no data,2500,var,no data,no data,50%
+Air Throw,90,200,2,3,Until landing+10,var,HKD,no data,2500,var,no data,no data,50%

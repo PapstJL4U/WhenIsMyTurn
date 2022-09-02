@@ -1,4 +1,4 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-236236H,Sickle Storm,"50×2, 20×3",All,11+1,8(24)13,26,-2,HKD,"800×2, 200","1000, 1000",u,Mid,1~15F All,100%
-632146P,One Vision,u,u,5+22,u,u,u,u,u,u,u,u,u,u
-632146P Attack,One Vision,u,All,8+0,1,u,0,u,u,1000,u,u,u,100%
+236236H,Sickle Storm,"50×2, 20×3",All,11+1,8(24)13,26,-2,HKD,"800×2, 200","1000, 1000",no data,Mid,1~15F All,100%
+632146P,One Vision,no data,no data,5+22,no data,no data,no data,no data,no data,no data,no data,no data,no data,no data
+632146P Attack,One Vision,no data,All,8+0,1,no data,0,no data,no data,1000,no data,no data,no data,100%

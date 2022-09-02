@@ -1,21 +1,21 @@
 input,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-5P,24,All,4,2,10,-2,+1,500,1500,0,Small,u,80%
-5K,29,All,7,5,10,-3,0,1000,1000,1,Small,u,u
-c.S,43,All,7,6,13,+1,+4,2000,1000,3,Mid,u,100%
-f.S,33,All,9,6,15,-7,-4,1500,1000,2,Mid,u,90%
-5H,47,All,13,2,25,-8,-5,2500,1000,4,Large,u,100%
-2P,21,All,6,3,9,-2,+1,500,1500,0,Small,u,80%
-2K,27,Low,6,5,10,-3,0,750,1000,1,Small,u,70%
-2S,31,All,11,3,19,-8,-5,1500,1000,2,Mid,u,90%
-2H,44,Low,17,6,26,-13,KD (+21),1875,1000,4,Large,u,90%
-j.P,23,High,5,3,13,u,u,375,1000,0,Small,u,80%
-j.K,29,High,7,8,12,u,u,750,1000,1,Small,u,80%
-j.S,33,High,8,7,19,u,u,1125,1000,2,Mid,u,80%
-j.H,41,High,15,Until Landing,Landing+3,u,u,1125,1000,2,Mid,u,80%
-j.D,53,High,12,3,26,u,u,1500,1000,3,Mid,u,90%
+5P,24,All,4,2,10,-2,+1,500,1500,0,Small,no data,80%
+5K,29,All,7,5,10,-3,0,1000,1000,1,Small,no data,no data
+c.S,43,All,7,6,13,+1,+4,2000,1000,3,Mid,no data,100%
+f.S,33,All,9,6,15,-7,-4,1500,1000,2,Mid,no data,90%
+5H,47,All,13,2,25,-8,-5,2500,1000,4,Large,no data,100%
+2P,21,All,6,3,9,-2,+1,500,1500,0,Small,no data,80%
+2K,27,Low,6,5,10,-3,0,750,1000,1,Small,no data,70%
+2S,31,All,11,3,19,-8,-5,1500,1000,2,Mid,no data,90%
+2H,44,Low,17,6,26,-13,KD (+21),1875,1000,4,Large,no data,90%
+j.P,23,High,5,3,13,no data,no data,375,1000,0,Small,no data,80%
+j.K,29,High,7,8,12,no data,no data,750,1000,1,Small,no data,80%
+j.S,33,High,8,7,19,no data,no data,1125,1000,2,Mid,no data,80%
+j.H,41,High,15,Until Landing,Landing+3,no data,no data,1125,1000,2,Mid,no data,80%
+j.D,53,High,12,3,26,no data,no data,1500,1000,3,Mid,no data,90%
 6P,32,All,9,5,19,-10,-7,1500,1000,2,Mid,1-3f Upper Body,90%
-6K,33,All,12,9,10,-5,-2,1500,1000,2,Mid,u,100%
-6H,52,All,20,8,24,-13,-10,2500,1000,4,Large,u,100%
-2D,20×2,Low,10,"6,3",21,-10,HKD (+49),525×2,1000,2,Large,u,70%
-5D,45,High,20,3,26,-15,0,1125,3000,2,Mid,u,80%
-5[D],56,High,28,3,26,-10,Launch,1875,1500,4,Mid,u,100%
+6K,33,All,12,9,10,-5,-2,1500,1000,2,Mid,no data,100%
+6H,52,All,20,8,24,-13,-10,2500,1000,4,Large,no data,100%
+2D,20×2,Low,10,"6,3",21,-10,HKD (+49),525×2,1000,2,Large,no data,70%
+5D,45,High,20,3,26,-15,0,1125,3000,2,Mid,no data,80%
+5[D],56,High,28,3,26,-10,Launch,1875,1500,4,Mid,no data,100%

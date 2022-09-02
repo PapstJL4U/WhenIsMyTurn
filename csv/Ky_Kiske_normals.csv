@@ -8,11 +8,11 @@ f.S,34,All,12,6,13,-5,-2,1500,1000,2,Mid,none,90%
 2K,26,Low,6,4,10,-2,+1,750,1000,1,Small,none,70%
 2S,32,Low,10,2,20,-8,-5,1125,1000,2,Mid,none,90%
 2H,"14, 40",All,11,"1,4",28,-13,+2,"1000, 1200",1000,"3,4",Large×2,none,100%
-j.P,20,High,6,3,9,u,u,375,1000,0,Small,none,80%
-j.K,26,High,7,4,8,u,u,750,1000,1,Small,none,80%
-j.S,32,High,7,3,21,u,u,1125,1000,2,Mid,none,80%
-j.H,44,High,13,4,23,u,u,1125,1000,2,Mid,none,80%
-j.D,32,All,13,6,15,u,u,500,1000,2,Very Small,none,80%
+j.P,20,High,6,3,9,no data,no data,375,1000,0,Small,none,80%
+j.K,26,High,7,4,8,no data,no data,750,1000,1,Small,none,80%
+j.S,32,High,7,3,21,no data,no data,1125,1000,2,Mid,none,80%
+j.H,44,High,13,4,23,no data,no data,1125,1000,2,Mid,none,80%
+j.D,32,All,13,6,15,no data,no data,500,1000,2,Very Small,none,80%
 6P,34,All,9,5,17,-8,-5,1500,1000,2,Mid,1-3f Upper Body,90%
 6K,40,All,25,2,11,+4,+7,2000,1000,3,Mid,none,100%
 6H,52,All,15,4,20,-7,KD (+29),2000,1000,3,Large,none,100%

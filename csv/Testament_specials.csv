@@ -1,12 +1,12 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-Stain,Stain,40,All,u,u,u,u,u,250,2000,3,Very Small,u,80%
-236S,Grave Reaper,"43, 31",All,16~22,"4, (5), 30",27,-4,KD,"1000, 200","2000, 1000","3, 1","Mid, Very Small",u,"90%, 80%"
-236H,Grave Reaper,"43, 31",All,13~19,"4, (5), 30",27,+2,KD,"1000, 200","2000, 1000","3, 1","Mid, Very Small",u,"90%, 80%"
-236{S},Grave Reaper,"48, 36",All,23~29,"4, (5), 70",22,+3,KD,"1000, 200","2000, 1000","3, 2","Mid, Very Small",u,"90%, 80%"
-236{H},Grave Reaper,"48, 36",All,20~26,"4, (5), 70",22,+9,KD,"1000, 200","2000, 1000","3, 2","Mid, Very Small",u,"90%, 80%"
-236[S],Grave Reaper,"53, 41",All,30~36,"4, (5), 110",19,+10,KD,"1000, 200","2000, 1000","3, 3","Mid, Very Small",u,"90%, 80%"
-236[H],Grave Reaper,"53, 41",All,27~33,"4, (5), 110",19,+16,KD,"1000, 200","2000, 1000","3, 3","Mid, Very Small",u,"90%, 80%"
-214P,Unholy Diver,23,All,21,u,Total 39,+1,+4,500,100,2,Very Small,u,80%
-214K,Possession,u,u,16,u,Total 34,u,u,u,u,u,u,16~25,u
-214S,Arbiter Sign,63,Low,24,3,35,-12,KD,1500,1000,3,Very Small,u,90%
-214H,Arbiter Sign,63,High,28,3,35,-12,KD,1500,1000,3,Very Small,u,80%
+Stain,Stain,40,All,no data,no data,no data,no data,no data,250,2000,3,Very Small,no data,80%
+236S,Grave Reaper,"43, 31",All,16~22,"4, (5), 30",27,-4,KD,"1000, 200","2000, 1000","3, 1","Mid, Very Small",no data,"90%, 80%"
+236H,Grave Reaper,"43, 31",All,13~19,"4, (5), 30",27,+2,KD,"1000, 200","2000, 1000","3, 1","Mid, Very Small",no data,"90%, 80%"
+236{S},Grave Reaper,"48, 36",All,23~29,"4, (5), 70",22,+3,KD,"1000, 200","2000, 1000","3, 2","Mid, Very Small",no data,"90%, 80%"
+236{H},Grave Reaper,"48, 36",All,20~26,"4, (5), 70",22,+9,KD,"1000, 200","2000, 1000","3, 2","Mid, Very Small",no data,"90%, 80%"
+236[S],Grave Reaper,"53, 41",All,30~36,"4, (5), 110",19,+10,KD,"1000, 200","2000, 1000","3, 3","Mid, Very Small",no data,"90%, 80%"
+236[H],Grave Reaper,"53, 41",All,27~33,"4, (5), 110",19,+16,KD,"1000, 200","2000, 1000","3, 3","Mid, Very Small",no data,"90%, 80%"
+214P,Unholy Diver,23,All,21,no data,Total 39,+1,+4,500,100,2,Very Small,no data,80%
+214K,Possession,no data,no data,16,no data,Total 34,no data,no data,no data,no data,no data,no data,16~25,no data
+214S,Arbiter Sign,63,Low,24,3,35,-12,KD,1500,1000,3,Very Small,no data,90%
+214H,Arbiter Sign,63,High,28,3,35,-12,KD,1500,1000,3,Very Small,no data,80%

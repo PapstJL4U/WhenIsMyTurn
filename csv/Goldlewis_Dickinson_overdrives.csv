@@ -1,7 +1,7 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-632146P,Down With The System,"160 [160,25]",All,6+(135 Flash)+4,5,46,-33,u,2000,1000 [1000x2],3,Mid,1~14 All,100%
-720P,Down With The System,"175 [160,25×2]",All,11+(191 Flash)+4,5,46,-33,u,2000,1000 [1000×3],3,Mid,1~19 All,100%
-1080P,Down With The System,"190 [160,25×3]",All,16+(230 Flash)+4,5,46,-33,u,2000,1000 [1000×4],3,Mid,1~24 All,100%
-236236K Level 1,Burn It Down,8×5,All,13+(84 Flash)+79,32,27 Total,u,u,100x5,1000,2,Small,none,u
-236236K Level 2,Burn It Down,8×10,All,13+(84 Flash)+79,52,27 Total,u,u,100x10,1000,2,Small,none,u
-236236K Level 3,Burn It Down,8×15,All,13+(84 Flash)+79,72,27 Total,u,u,100x15,1000,2,Small,none,u
+632146P,Down With The System,"160 [160,25]",All,6+(135 Flash)+4,5,46,-33,no data,2000,1000 [1000x2],3,Mid,1~14 All,100%
+720P,Down With The System,"175 [160,25×2]",All,11+(191 Flash)+4,5,46,-33,no data,2000,1000 [1000×3],3,Mid,1~19 All,100%
+1080P,Down With The System,"190 [160,25×3]",All,16+(230 Flash)+4,5,46,-33,no data,2000,1000 [1000×4],3,Mid,1~24 All,100%
+236236K Level 1,Burn It Down,8×5,All,13+(84 Flash)+79,32,27 Total,no data,no data,100x5,1000,2,Small,none,no data
+236236K Level 2,Burn It Down,8×10,All,13+(84 Flash)+79,52,27 Total,no data,no data,100x10,1000,2,Small,none,no data
+236236K Level 3,Burn It Down,8×15,All,13+(84 Flash)+79,72,27 Total,no data,no data,100x15,1000,2,Small,none,no data

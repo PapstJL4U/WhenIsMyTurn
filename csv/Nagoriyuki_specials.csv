@@ -1,8 +1,8 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-236S,Zarameyuki,45,Mid,18,9,Total 39,+5,+8,500,1000,2,Very Small,u,80%
-236K,Fukyo,u,u,-,u,Total 25,u,u,u,u,u,u,1~25F Above Chest,u
-214K,Fukyo,u,u,-,u,Total 16,u,u,u,u,u,u,1~16F Above Chest,u
-214H,Kamuriyuki,50,Mid,14,5,17,-3,HKD,2500,1000,4,Large,u,90%
-623H,Shizuriyuki,45,Mid,11,3,21,-7,HKD,1000,1000,3,Large,1-13F Upper Body,u
-623HH,Shizuriyuki,55,Mid,10,6,29,-16,HKD,1200,1000,4,Large,u,u
-623P,Bloodsucking Universe,80/90/100,Ground Throw,7,2,48,u,HKD,u,2500,u,u,1~8F Throw,50%
+236S,Zarameyuki,45,Mid,18,9,Total 39,+5,+8,500,1000,2,Very Small,no data,80%
+236K,Fukyo,var,var,-,var,Total 25,var,var,no data,no data,var,no data,1~25F Above Chest,no data
+214K,Fukyo,var,var,-,var,Total 16,var,var,no data,no data,var,no data,1~16F Above Chest,no data
+214H,Kamuriyuki,50,Mid,14,5,17,-3,HKD,2500,1000,4,Large,no data,90%
+623H,Shizuriyuki,45,Mid,11,3,21,-7,HKD,1000,1000,3,Large,1-13F Upper Body,no data
+623HH,Shizuriyuki,55,Mid,10,6,29,-16,HKD,1200,1000,4,Large,no data,no data
+623P,Bloodsucking Universe,80/90/100,Ground Throw,7,2,48,var,HKD,no data,2500,var,no data,1~8F Throw,50%

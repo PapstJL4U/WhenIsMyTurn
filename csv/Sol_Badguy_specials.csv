@@ -1,16 +1,16 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-236P,Gun Flame,40→35→30→30,All,20,"10, 10, 10, 10",Total 54,-8,KD (+39),500,2000,2,Very Small,u,80%
-214P,Gun Flame (Feint),u,u,u,u,Total 25,u,u,u,u,u,u,u,u
+236P,Gun Flame,40→35→30→30,All,20,"10, 10, 10, 10",Total 54,-8,KD (+39),500,2000,2,Very Small,no data,80%
+214P,Gun Flame (Feint),no data,no data,no data,no data,Total 25,no data,no data,no data,no data,no data,no data,no data,no data
 623S,Volcanic Viper,40,All,9,14,18+10 after landing,-28,KD (+17),1500,1000,2,Mid,1~11F Strike,60%
 623H,Volcanic Viper,"35, 40 [35, 100]",All,13,"5, 11",19+10 after landing,-26,KD (+18) [HKD (+54)],700×2,1000,2,"Large, Very Small",1~14F Strike,60%
-j.623S,Volcanic Viper,40,All,9,9,Until landing+10,u,KD,1500,1000,2,Mid,1~10F Strike,60%
-j.623H,Volcanic Viper,"35, 40 [35, 100]",All,13,"5, 11",Until landing+10,u,KD [HKD],700×2,1000,2,"Large, Very Small",1~14F Strike,60%
-236K,Bandit Revolver,20,All,12,6,9+6 after landing,-7,-4,700,1000,2,Mid,u,90%
-236KK,Bandit Revolver,25,All,6,2,Until landing+17,-11,KD (+21),700,1000,2,Mid,u,90%
-j.236K,Bandit Revolver,20,All,10,6,Until landing+6,u,u,700,1000,2,Mid,u,90%
-j.236KK,Bandit Revolver,25,All,6,2,Until landing+17,u,KD,700,1000,2,Mid,u,90%
-214K,Bandit Bringer,50,High,30,7,12 after landing,-2,HKD (+45),1500,1000,3,Mid,u,80%
-j.214K,Bandit Bringer,40,High,22~30,Until landing,Until landing+18,u,HKD,1500,1000,3,Mid,u,80%
-623K,Wild Throw,120,Ground Throw: 120,6,2,41,u,HKD (+15),u,2500,u,u,1~7F Throw,Forced 50%
+j.623S,Volcanic Viper,40,All,9,9,Until landing+10,no data,KD,1500,1000,2,Mid,1~10F Strike,60%
+j.623H,Volcanic Viper,"35, 40 [35, 100]",All,13,"5, 11",Until landing+10,no data,KD [HKD],700×2,1000,2,"Large, Very Small",1~14F Strike,60%
+236K,Bandit Revolver,20,All,12,6,9+6 after landing,-7,-4,700,1000,2,Mid,no data,90%
+236KK,Bandit Revolver,25,All,6,2,Until landing+17,-11,KD (+21),700,1000,2,Mid,no data,90%
+j.236K,Bandit Revolver,20,All,10,6,Until landing+6,no data,no data,700,1000,2,Mid,no data,90%
+j.236KK,Bandit Revolver,25,All,6,2,Until landing+17,no data,KD,700,1000,2,Mid,no data,90%
+214K,Bandit Bringer,50,High,30,7,12 after landing,-2,HKD (+45),1500,1000,3,Mid,no data,80%
+j.214K,Bandit Bringer,40,High,22~30,Until landing,Until landing+18,no data,HKD,1500,1000,3,Mid,no data,80%
+623K,Wild Throw,120,Ground Throw: 120,6,2,41,no data,HKD (+15),no data,2500,no data,no data,1~7F Throw,Forced 50%
 214S,Night Raid Vortex,45 [55],All,15~31 [32],2 [8],32 [26],-17,HKD (+66) [HKD (+72)],2000,2000,3,Large,7F til 1F before active Low Profile,90%
-41236H,Fafnir,65,All (Guard Crush),24,3,16,+11,HKD (+76),2500,2000,4,Mid,u,90%
+41236H,Fafnir,65,All (Guard Crush),24,3,16,+11,HKD (+76),2500,2000,4,Mid,no data,90%

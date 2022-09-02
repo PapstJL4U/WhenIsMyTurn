@@ -1,3 +1,3 @@
 Input,Name,Damage,Guard,Startup,Active,Recovery,On-Block,On-Hit,riscGain,riscLoss,Attack Level,Counter Type,Invuln,Proration
-632146S,Deus Ex Machina,"20, 1×17, 100",All,13+(193 Flash)+7,u,u,-25,KD,100×19,1000 (Once),"2×18, 4",Small,u,100%
-214214P,Super Focus,-,-,5,(52 Flash),6,-,-,u,u,-,u,u,u
+632146S,Deus Ex Machina,"20, 1×17, 100",All,13+(193 Flash)+7,no data,no data,-25,KD,100×19,1000 (Once),"2×18, 4",Small,no data,100%
+214214P,Super Focus,-,-,5,(52 Flash),6,-,-,no data,no data,-,no data,no data,no data

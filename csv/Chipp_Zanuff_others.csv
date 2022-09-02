@@ -1,12 +1,12 @@
 name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-Ground Throw,"20×2, 30",Ground Throw,2,3,38,u,HKD +50,u,2500,u,u,u,50%
-Air Throw,70,Air Throw,2,3,Until L+10,u,HKD,u,2500,u,u,u,50%
-Dash Cancel,u,u,u,u,Total 24,u,u,u,u,u,u,u,u
-Wall Run,u,u,u,u,u,u,u,u,u,u,u,u,u
-Escape,u,u,u,u,u,u,u,u,u,u,u,u,u
-Wall Run P,31,u,9,3,31,u,u,u,u,u,u,u,u
-Wall Run K,28,u,6,5,15,u,u,u,u,u,u,u,u
-Wall Run S,45,u,6,2,18,u,u,u,u,u,u,u,u
-Wall Run SS,36,u,7,2,23,u,u,u,u,u,u,u,u
-Wall Run H,50,u,10,7,21,u,u,u,u,u,u,u,u
-Wall Run 6H,72,u,17,6,21,u,u,u,u,u,u,u,u
+Ground Throw,"20×2, 30",Ground Throw,2,3,38,no data,HKD +50,no data,2500,no data,no data,no data,50%
+Air Throw,70,Air Throw,2,3,Until L+10,no data,HKD,no data,2500,no data,no data,no data,50%
+Dash Cancel,no data,no data,no data,no data,Total 24,no data,no data,no data,no data,no data,no data,no data,no data
+Wall Run,no data,no data,no data,no data,no data,no data,no data,no data,no data,no data,no data,no data,no data
+Escape,no data,no data,no data,no data,no data,no data,no data,no data,no data,no data,no data,no data,no data
+Wall Run P,31,no data,9,3,31,no data,no data,no data,no data,no data,no data,no data,no data
+Wall Run K,28,no data,6,5,15,no data,no data,no data,no data,no data,no data,no data,no data
+Wall Run S,45,no data,6,2,18,no data,no data,no data,no data,no data,no data,no data,no data
+Wall Run SS,36,no data,7,2,23,no data,no data,no data,no data,no data,no data,no data,no data
+Wall Run H,50,no data,10,7,21,no data,no data,no data,no data,no data,no data,no data,no data
+Wall Run 6H,72,no data,17,6,21,no data,no data,no data,no data,no data,no data,no data,no data

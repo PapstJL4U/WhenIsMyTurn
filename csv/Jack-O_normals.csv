@@ -8,11 +8,11 @@ f.S,32,All,11,6,17,-9,-6,1500,1000,2,Mid,none,90%
 2K,24,Low,6,3,12,-3,+0,750,1000,1,Small,F6~20 Low-profile,70%
 2S,31,All,9,7,22,-15,-12,1500,1000,2,Mid,none,90%
 2H,41,All,15,6,18,-5,KD,2500,1000,4,Large,none,100%
-j.P,19,High,6,4,6,u,u,375,1000,0,Small,none,80%
-j.K,23,High,7,6,12,u,u,750,1000,1,Small,none,80%
+j.P,19,High,6,4,6,no data,no data,375,1000,0,Small,none,80%
+j.K,23,High,7,6,12,no data,no data,750,1000,1,Small,none,80%
 j.S,28,High,11,5,21,+3 (IAD),+6 (IAD),1125,1000,2,Mid,none,80%
 j.H,"20, 15",High,11,"3,3",32,+5 (IAD),+8 (IAD),525×2,1000,2,Mid×2,none,80%
-j.D,30,All,21,-,Total 44,u,u,500,1000,1,Very Small,none,80%
+j.D,30,All,21,-,Total 44,no data,no data,500,1000,1,Very Small,none,80%
 6P,28,All,10,6,20,-12,KD,1500,1000,2,Mid,1~1 Upper Body,90%
 6H,"20, 40",All,"8,19",2(9)11,14,-6,KD/-3,"1000, 1200",1000,"3, 4",Large×2,none,100%
 2D,29,Low,10,15,18,-19,HKD,1125,1000,2,Large,F10~33 Low-profile,90%

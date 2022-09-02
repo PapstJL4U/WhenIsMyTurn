@@ -1,20 +1,20 @@
 input,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
 5P,26,All,7,3,6,+3,+6,1000,1500,1,Small,none,80%
 5K,33,Low,10,9,12,-7,-4,1125,1000,2,Small,none,70%
-c.S,39,All,7,6,12,+1,+4,2500,1000,4,Mid,none,u
+c.S,39,All,7,6,12,+1,+4,2500,1000,4,Mid,none,no data
 f.S,31,All,10,3,18,-7,-4,1500,1000,2,Mid,none,90%
 5H,41,All,19,6,15,-2,+1,2500,1000,4,Large,none,100%
 5D,50,High,20,3,26,-15,0,1125,3000,2,Mid,none,80%
-5[D],62,High,28,3,26,-10,KD,1875,1500,4,Mid,none,u
+5[D],62,High,28,3,26,-10,KD,1875,1500,4,Mid,none,var
 6P,39,All,12,6,27,-19,-16,1500,1000,2,Mid,1~2 Upper Body,90%
-6H,65,All,25,3,30,-14,-11,2500,1000,4,Large,none,u
+6H,65,All,25,3,30,-14,-11,2500,1000,4,Large,none,no data
 2P,23,All,5,3,6,+3,+6,1000,1500,1,Small,none,80%
 2K,26,Low,8,3,11,-3,0,750,1000,1,Small,none,70%
 2S,29,All,13,3,20,-9,-6,1500,1000,2,Mid,none,90%
-2H,43,All,20,4,30,-15,KD,2500,1000,4,Large,none,u
+2H,43,All,20,4,30,-15,KD,2500,1000,4,Large,none,no data
 2D,34,Low,14,3,24,-10,KD,1500,1000,3,Large,none,90%
-j.P,25,High,6,3,12,u,u,375,1000,0,Small,none,80%
-j.K,29,High,9,4,17,u,u,750,1000,1,Small,none,80%
-j.S,37,High,11,11,13,u,u,1125,1000,2,Mid,none,80%
-j.H,43,High,15,4,u,u,u,1125,1000,2,Mid,none,80%
-j.D,47,High,14,10,u,u,u,1500,1000,3,Mid,none,80%
+j.P,25,High,6,3,12,no data,no data,375,1000,0,Small,none,80%
+j.K,29,High,9,4,17,no data,no data,750,1000,1,Small,none,80%
+j.S,37,High,11,11,13,no data,no data,1125,1000,2,Mid,none,80%
+j.H,43,High,15,4,no data,no data,no data,1125,1000,2,Mid,none,80%
+j.D,47,High,14,10,no data,no data,no data,1500,1000,3,Mid,none,80%
