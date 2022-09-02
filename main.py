@@ -1,13 +1,12 @@
 """find the +onBlock moves in GG Strive and find the percentage for normals and specials
     to do so we need to scrap dustloop.com for each characters moves and do some math
 """
-from glob import escape
 import pprint as pp
-from re import M
 import website_fiddling as wf
 import dustloop_links as dl
 import pandas as pd
 import numpy as np
+import local_data as ld
 
 __types:int=4
 """Gives the range for for-loops to interate over types of moves:
@@ -15,6 +14,8 @@ __types:int=4
     max 5: over all 4
     the last is always the SUM
 """
+__local = True # set true if you want to use local csv files from the csv folder
+
 def minus_on_Block(dataframe: pd.DataFrame, type:str="None", character:str="None")->int:
     """Count the moves that are minus on Block"""
     number_of_all_moves = len(dataframe.index.to_list())
@@ -79,8 +80,13 @@ def single(dl_name:str)->list:
     """Get data for a single character"""
 
     name = dl_name.split("/")[-2] #get name of the character from website string
-    normal, specials , overdrives, others = wf.find_Moves(dl_name) #get moves grouped by type
-    data = [ [0.0]*3 for i in range(__types)] # create 3x__types array to fill data
+    #get moves grouped by type
+    if __local == True:
+        normal, specials , overdrives, others = ld.get_moves_from_csv(dl_name)   
+    else:
+        normal, specials , overdrives, others = wf.find_Moves(dl_name)
+
+    data = [ [0.0]*3 for i in range(__types)] # create 3x __types array to be filled with data
 
     #returns only negative moves or unknown onBlock moves
     if __types >= 2:
