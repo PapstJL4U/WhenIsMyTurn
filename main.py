@@ -23,9 +23,6 @@ def minus_on_Block(dataframe: pd.DataFrame, type:str="None", character:str="None
     if "jack" in character.lower() or "happy" in character.lower(): #jacko/hc exception, because ofcourse there is one in html
         minus = dataframe.loc[dataframe['On-Block'].str.startswith("-")] #select moves that are negative or unknown, but not N/A
     else:
-        #if character == "Bridget" and type=="Specials":
-        #   breakpoint()
-        #minus = dataframe.loc[dataframe['onBlock'].str.replace("~", "+")]
         minus = dataframe.loc[dataframe['onBlock'].str.startswith("-")] #select moves that are negative or unknown, but not N/A
     number_of_non_plus_mives = len(minus.index.to_list())
     percentage =  (number_of_non_plus_mives / number_of_all_moves)*100
@@ -39,7 +36,7 @@ def all()->None:
     #create an array to only safe extrem cases, i.e character with the highest/lowest amount of moves -onBlock
     extremes = np.array([ [1.0]*4 for i in range(__types)])
     
-    maximum = "worst" #declare to find either the "best" or "worst" character in each type
+    maximum = "best" #declare to find either the "best" or "worst" character in each type
     for index,char in enumerate(dl.characters): 
         temp = np.array(single(char))
         extremes = find_min_or_max_minus_frames(index, maximum, extremes, temp)
