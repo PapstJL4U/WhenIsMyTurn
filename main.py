@@ -39,7 +39,7 @@ def all()->None:
     #create an array to only safe extrem cases, i.e character with the highest/lowest amount of moves -onBlock
     extremes = np.array([ [1.0]*4 for i in range(__types)])
     
-    maximum = "best" #declare to find either the "best" or "worst" character in each type
+    maximum = "worst" #declare to find either the "best" or "worst" character in each type
     for index,char in enumerate(dl.characters): 
         temp = np.array(single(char))
         extremes = find_min_or_max_minus_frames(index, maximum, extremes, temp)
