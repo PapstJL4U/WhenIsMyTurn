@@ -20,15 +20,16 @@ def minus_on_Block(dataframe: pd.DataFrame, type:str="None", character:str="None
     number_of_all_moves = len(dataframe.index.to_list())
 
     if "jack" in character.lower() or "happy" in character.lower(): #jacko/hc exception, because ofcourse there is one in html
-        minus = dataframe.loc[dataframe['On-Block'].str.startswith("-")] #select moves that are negative or unknown
+        minus = dataframe.loc[dataframe['On-Block'].str.startswith("-")] #select moves that are negative or unknown, but not N/A
     else:
-        minus = dataframe.loc[dataframe['onBlock'].str.startswith("-")] #select moves that are negative or unknown
+        minus = dataframe.loc[dataframe['onBlock'].str.startswith("-")] #select moves that are negative or unknown, but not N/A
     number_of_non_plus_mives = len(minus.index.to_list())
     percentage =  (number_of_non_plus_mives / number_of_all_moves)*100
     sentence = f"{round(percentage,2)}% of {character} {type} moves are negative on Block({number_of_non_plus_mives}/{number_of_all_moves})."
     return number_of_non_plus_mives, number_of_all_moves
 
 def all()->None:
+    """Create the data sheet for all characters, the extremes and a summaray"""
     #create an array to sum up moves of all characters
     super_data = np.array([ [0.0]*3 for i in range(__types)])
     #create an array to only safe extrem cases, i.e character with the highest/lowest amount of moves -onBlock
@@ -73,7 +74,7 @@ def all()->None:
     
     extr.to_html(r"res/"+maximum+"_extremes"+__types+".html")
     extr.to_csv(r"res/"+maximum+"_extremes"+__types+".csv")
-    
+
 def single(dl_name:str)->list:
     """Get data for a single character"""
 
