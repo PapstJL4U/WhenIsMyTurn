@@ -1,5 +1,5 @@
-,input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-0,632146H,Issei Ougi: Sai,"15×6,75",All,11+6,-,-,-30,-,350,1000,-,Very Small,-,100%
-1,632146S,Kachoufuugetsu Kai,-,-,-,-,Total 40,-,-,-,-,-,-,1-30 Guard,-
-2,632146S Attack Near,Kachoufuugetsu Kai,"66,15×4,60",All,2+1,-,-,-,-,-,1000,-,-,-,100%
-3,632146S Attack Far,Kachoufuugetsu Kai,"60, 80",All,2+1,-,-,-1,-,"1200, 1800",1000,-,Mid,-,100%
+input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+632146H,Issei Ougi: Sai,"15×6,75",All,11+6,-,-,-30,-,350,1000,-,Very Small,-,100%
+632146S,Kachoufuugetsu Kai,-,-,-,-,Total 40,-,-,-,-,-,-,1-30 Guard,-
+632146S Attack Near,Kachoufuugetsu Kai,"66,15×4,60",All,2+1,-,-,-,-,-,1000,-,-,-,100%
+632146S Attack Far,Kachoufuugetsu Kai,"60, 80",All,2+1,-,-,-1,-,"1200, 1800",1000,-,Mid,-,100%

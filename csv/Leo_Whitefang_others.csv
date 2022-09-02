@@ -1,10 +1,10 @@
-,input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-0,6D or 4D,Ground Throw,80,Ground Throw,2,3,38,-,HKD +50,-,2500,-,-,-,50%
-1,j.6D or j.4D,Air Throw,80,Air Throw,2,3,Until L+10,-,-,-,2500,-,-,-,50%
-2,66,Dash Cancel,-,-,-,-,Total 22,-,-,-,-,-,-,-,-
-3,bt.P,-,30,All,7,4,12,-2 [+2],13,1500,1000,2,Mid,1-10 Upper Body,90%
-4,bt.K,-,24,Low,5,3,6,+3 [+0],+6,750,1000,1,Small,-,70%
-5,bt.S,-,28,All,6,6,14,-3 [+5],0,2000,1000,3,Mid,-,90%
-6,bt.H,-,42,High,18,4,22,-6 [+5],KD,1875,2000,4,Mid,-,80%
-7,bt.D,Kahn Schild,74,All,3,17,Total 37F,-,-,-,2500,-,-,1-2 Strike/Projectile 3-19 Parry,50%
-8,bt.22,Brynhildr Cancel,-,-,-,-,Total 11F,-,-,-,-,-,-,-,-
+input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+6D or 4D,Ground Throw,80,Ground Throw,2,3,38,-,HKD +50,-,2500,-,-,-,50%
+j.6D or j.4D,Air Throw,80,Air Throw,2,3,Until L+10,-,-,-,2500,-,-,-,50%
+66,Dash Cancel,-,-,-,-,Total 22,-,-,-,-,-,-,-,-
+bt.P,-,30,All,7,4,12,-2 [+2],13,1500,1000,2,Mid,1-10 Upper Body,90%
+bt.K,-,24,Low,5,3,6,+3 [+0],+6,750,1000,1,Small,-,70%
+bt.S,-,28,All,6,6,14,-3 [+5],0,2000,1000,3,Mid,-,90%
+bt.H,-,42,High,18,4,22,-6 [+5],KD,1875,2000,4,Mid,-,80%
+bt.D,Kahn Schild,74,All,3,17,Total 37F,-,-,-,2500,-,-,1-2 Strike/Projectile 3-19 Parry,50%
+bt.22,Brynhildr Cancel,-,-,-,-,Total 11F,-,-,-,-,-,-,-,-

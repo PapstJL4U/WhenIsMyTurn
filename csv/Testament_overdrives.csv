@@ -1,3 +1,3 @@
-,input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-0,236236P,Nostrovia,"20×2, 57",All,11+19,"2, (24), 2, (28), 4",Total 53,+63,HKD,100×3,1000,3,Very Small,-,100%
-1,236236K,Calamity One,143,All,11+4,5,67,-67,HKD,500,1000,4,Very Small,1~19F Full,100%
+input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+236236P,Nostrovia,"20×2, 57",All,11+19,"2, (24), 2, (28), 4",Total 53,+63,HKD,100×3,1000,3,Very Small,-,100%
+236236K,Calamity One,143,All,11+4,5,67,-67,HKD,500,1000,4,Very Small,1~19F Full,100%

@@ -1,4 +1,4 @@
-,Name,Damage,Guard,Startup,Active,Recovery,On-Block,On-Hit,riscGain,riscLoss,Attack Level,Counter Type,Invuln,Proration
-0,Ground Throw,80,Ground Throw,2,3,38,-,HKD +43,-,2500,-,-,-,50%
-1,Air Throw,80,Air Throw,2,3,Until landing+10,-,HKD,-,2500,-,-,-,50%
-2,Dash Cancel,-,-,-,-,Total 26,-,-,-,-,-,-,-,-
+Name,Damage,Guard,Startup,Active,Recovery,On-Block,On-Hit,riscGain,riscLoss,Attack Level,Counter Type,Invuln,Proration
+Ground Throw,80,Ground Throw,2,3,38,-,HKD +43,-,2500,-,-,-,50%
+Air Throw,80,Air Throw,2,3,Until landing+10,-,HKD,-,2500,-,-,-,50%
+Dash Cancel,-,-,-,-,Total 26,-,-,-,-,-,-,-,-

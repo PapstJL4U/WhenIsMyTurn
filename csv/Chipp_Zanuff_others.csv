@@ -1,12 +1,12 @@
-,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-0,Ground Throw,"20×2, 30",Ground Throw,2,3,38,-,HKD +50,-,2500,-,-,-,50%
-1,Air Throw,70,Air Throw,2,3,Until L+10,-,HKD,-,2500,-,-,-,50%
-2,Dash Cancel,-,-,-,-,Total 24,-,-,-,-,-,-,-,-
-3,Wall Run,-,-,-,-,-,-,-,-,-,-,-,-,-
-4,Escape,-,-,-,-,-,-,-,-,-,-,-,-,-
-5,Wall Run P,31,-,9,3,31,-,-,-,-,-,-,-,-
-6,Wall Run K,28,-,6,5,15,-,-,-,-,-,-,-,-
-7,Wall Run S,45,-,6,2,18,-,-,-,-,-,-,-,-
-8,Wall Run SS,36,-,7,2,23,-,-,-,-,-,-,-,-
-9,Wall Run H,50,-,10,7,21,-,-,-,-,-,-,-,-
-10,Wall Run 6H,72,-,17,6,21,-,-,-,-,-,-,-,-
+name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+Ground Throw,"20×2, 30",Ground Throw,2,3,38,-,HKD +50,-,2500,-,-,-,50%
+Air Throw,70,Air Throw,2,3,Until L+10,-,HKD,-,2500,-,-,-,50%
+Dash Cancel,-,-,-,-,Total 24,-,-,-,-,-,-,-,-
+Wall Run,-,-,-,-,-,-,-,-,-,-,-,-,-
+Escape,-,-,-,-,-,-,-,-,-,-,-,-,-
+Wall Run P,31,-,9,3,31,-,-,-,-,-,-,-,-
+Wall Run K,28,-,6,5,15,-,-,-,-,-,-,-,-
+Wall Run S,45,-,6,2,18,-,-,-,-,-,-,-,-
+Wall Run SS,36,-,7,2,23,-,-,-,-,-,-,-,-
+Wall Run H,50,-,10,7,21,-,-,-,-,-,-,-,-
+Wall Run 6H,72,-,17,6,21,-,-,-,-,-,-,-,-

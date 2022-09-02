@@ -41,10 +41,10 @@ def find_Moves(website:str)->pd.DataFrame:
         
         name = website.split("/")[-2]
         try:
-            save(name+"_normals", "html", normal_data_frame)
-            save(name+"_specials", "html", special_data_frame)
-            save(name+"_overdrives", "html", overdrive_data_frame)
-            save(name+"_others", "html", other_data_frame)
+            save(name+"_normals", "csv", normal_data_frame)
+            save(name+"_specials", "csv", special_data_frame)
+            save(name+"_overdrives", "csv", overdrive_data_frame)
+            save(name+"_others", "csv", other_data_frame)
         except Exception:
             print(Exception)
         return normal_data_frame, special_data_frame, overdrive_data_frame, other_data_frame
@@ -77,7 +77,7 @@ def strip_wn(value:str):
 
 def save(name:str="None", type:str="csv", df:pd.DataFrame=None)->None:
     if type=="csv":
-        df.to_csv(r"csv/"+name+".csv")
+        df.to_csv(r"csv/"+name+".csv", index=False)
     elif type=="html":
         df.to_html(r"html/"+name+".html")
     else:

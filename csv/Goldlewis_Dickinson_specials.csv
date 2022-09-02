@@ -1,23 +1,23 @@
-,input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-0,41236H,Behemoth Typhoon,70,All (Guard Crush),12,20,18,+12,KD,2500,1000,4,Mid,none,100%
-1,j.41236H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
-2,63214H,Behemoth Typhoon,70,All (Guard Crush),12,20,21,-5,KD,2500,1000,4,Mid,none,100%
-3,j.63214H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
-4,23698H,Behemoth Typhoon,70,All (Guard Crush),12,15,18,+3~12,KD,2500,1000,4,Mid,none,100%
-5,j.23698H,Behemoth Typhoon,70,All,12,15,-,-,KD,2500,1000,4,Mid,none,100%
-6,21478H,Behemoth Typhoon,70,Low (Guard Crush),12,15,18,+3,KD,1875,1000,4,Mid,none,90%
-7,j.21478H,Behemoth Typhoon,70,All,12,15,-,-,KD,2500,1000,4,Mid,none,100%
-8,69874H,Behemoth Typhoon,70,All* (Guard Crush),12,20,21,-5,KD,2500,1000,4,Mid,none,80%
-9,j.69874H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
-10,47896H,Behemoth Typhoon,70,High (Guard Crush),12,20,18,+14~15,KD,2500,1000,4,Mid,none,100%
-11,j.47896H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
-12,87412H,Behemoth Typhoon,70,Low (Guard Crush),12,15,18,+16,KD,1875,1000,4,Mid,none,90%
-13,j.87412H,Behemoth Typhoon,70,All,12,15,-,-,KD,2500,1000,4,Mid,none,100%
-14,89632H,Behemoth Typhoon,70,High (Guard Crush),12,15,18,+12(+14 GI),KD,1875,1000,4,Mid,none,80%
-15,j.89632H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
-16,214S Level 1,Thunderbird,"10, 30",All,57,24,42 Total,-,-,100×2,1000,2,Very Small,-,80%
-17,214S Level 2,Thunderbird,"10×2, 30",All,57,84,38 Total,-,-,100×3,1000,2,Very Small,none,80%
-18,214S Level 3,Thunderbird,"10×3, 30",All,57,144,34 Total,-,-,100×4,1000,2,Very Small,none,80%
-19,236S Level 1,Skyfish,5×10,All,35,-,84 Total,-13,-10,100×10,1000,0,Very Small,none,80%
-20,236S Level 2,Skyfish,5×20,All,30,-,109 Total,-13,KD,100×20,1000,0,Very Small,none,80%
-21,236S Level 3,Skyfish,5×30,All,25,-,134 Total,-13,HKD,100×30,1000,0,Very Small,none,80%
+input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+41236H,Behemoth Typhoon,70,All (Guard Crush),12,20,18,+12,KD,2500,1000,4,Mid,none,100%
+j.41236H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
+63214H,Behemoth Typhoon,70,All (Guard Crush),12,20,21,-5,KD,2500,1000,4,Mid,none,100%
+j.63214H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
+23698H,Behemoth Typhoon,70,All (Guard Crush),12,15,18,+3~12,KD,2500,1000,4,Mid,none,100%
+j.23698H,Behemoth Typhoon,70,All,12,15,-,-,KD,2500,1000,4,Mid,none,100%
+21478H,Behemoth Typhoon,70,Low (Guard Crush),12,15,18,+3,KD,1875,1000,4,Mid,none,90%
+j.21478H,Behemoth Typhoon,70,All,12,15,-,-,KD,2500,1000,4,Mid,none,100%
+69874H,Behemoth Typhoon,70,All* (Guard Crush),12,20,21,-5,KD,2500,1000,4,Mid,none,80%
+j.69874H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
+47896H,Behemoth Typhoon,70,High (Guard Crush),12,20,18,+14~15,KD,2500,1000,4,Mid,none,100%
+j.47896H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
+87412H,Behemoth Typhoon,70,Low (Guard Crush),12,15,18,+16,KD,1875,1000,4,Mid,none,90%
+j.87412H,Behemoth Typhoon,70,All,12,15,-,-,KD,2500,1000,4,Mid,none,100%
+89632H,Behemoth Typhoon,70,High (Guard Crush),12,15,18,+12(+14 GI),KD,1875,1000,4,Mid,none,80%
+j.89632H,Behemoth Typhoon,70,All,12,20,-,-,KD,2500,1000,4,Mid,none,100%
+214S Level 1,Thunderbird,"10, 30",All,57,24,42 Total,-,-,100×2,1000,2,Very Small,-,80%
+214S Level 2,Thunderbird,"10×2, 30",All,57,84,38 Total,-,-,100×3,1000,2,Very Small,none,80%
+214S Level 3,Thunderbird,"10×3, 30",All,57,144,34 Total,-,-,100×4,1000,2,Very Small,none,80%
+236S Level 1,Skyfish,5×10,All,35,-,84 Total,-13,-10,100×10,1000,0,Very Small,none,80%
+236S Level 2,Skyfish,5×20,All,30,-,109 Total,-13,KD,100×20,1000,0,Very Small,none,80%
+236S Level 3,Skyfish,5×30,All,25,-,134 Total,-13,HKD,100×30,1000,0,Very Small,none,80%

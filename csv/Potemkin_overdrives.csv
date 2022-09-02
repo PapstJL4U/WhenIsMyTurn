@@ -1,4 +1,4 @@
-,input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-0,236236S,Heavenly Potemkin Buster,220,Air Unblockable,12+0,15,16,N/A,KD,-,1000,-,Very Small,1 ~ 12F Full,100%
-1,632146H,Giganter Kai,60,All,10+1,5,17,+100,KD,2500,1000,-,Mid,-,100%
-2,Mirror,Giganter Kai (Barrier),15×3,All,10+6,481,-,-,KD,100×3,1000,-,Very Small,-,100%
+input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+236236S,Heavenly Potemkin Buster,220,Air Unblockable,12+0,15,16,N/A,KD,-,1000,-,Very Small,1 ~ 12F Full,100%
+632146H,Giganter Kai,60,All,10+1,5,17,+100,KD,2500,1000,-,Mid,-,100%
+Mirror,Giganter Kai (Barrier),15×3,All,10+6,481,-,-,KD,100×3,1000,-,Very Small,-,100%

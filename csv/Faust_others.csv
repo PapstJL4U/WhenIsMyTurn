@@ -1,14 +1,14 @@
-,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-0,Ground Throw,80,Ground Throw,2,3,38,-,HKD +55,-,2600,-,-,-,50%
-1,Air Throw,80,Air Throw,2,3,Until L+10,-,HKD,-,2500,-,-,-,50%
-2,Dash Cancel,-,-,-,-,Total 26,-,-,-,-,-,-,-,-
-3,Bomb,70,All,-,-,-,-,KD,500,1000,4,Very Small,-,80%
-4,Banana,Heal 20,-,-,-,-,-,-,-,-,-,-,-,80%
-5,Donut,Heal 20,-,-,-,-,-,-,-,-,-,-,-,-
-6,Afro,40,All,-,-,-,-,-,-,-,2,-,-,100%
-7,Hammer,50,All,1,-,-,-,-,500,1000,4,Very Small,-,80%
-8,Mini Faust,15×2 (stomps) 15×N (lunge),-,-,-,-,-,-,100×N,1000,2,Very Small,-,80%
-9,100T Weight,25,All,1,63,-,-,HKD,250,1000,0,Very Small,-,80%
-10,Earthquake,0,All,64,2,-,-,HKD,500,1000,0,-,-,80%
-11,Horn,7×N,All,-,-,-,-,-,100×N,1000×2,1,Very Small,-,80%
-12,Meteors,36(1x),Guard Crush,-,-,-,-,-,100,1000xN,4,Very Small,-,80%
+name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+Ground Throw,80,Ground Throw,2,3,38,-,HKD +55,-,2600,-,-,-,50%
+Air Throw,80,Air Throw,2,3,Until L+10,-,HKD,-,2500,-,-,-,50%
+Dash Cancel,-,-,-,-,Total 26,-,-,-,-,-,-,-,-
+Bomb,70,All,-,-,-,-,KD,500,1000,4,Very Small,-,80%
+Banana,Heal 20,-,-,-,-,-,-,-,-,-,-,-,80%
+Donut,Heal 20,-,-,-,-,-,-,-,-,-,-,-,-
+Afro,40,All,-,-,-,-,-,-,-,2,-,-,100%
+Hammer,50,All,1,-,-,-,-,500,1000,4,Very Small,-,80%
+Mini Faust,15×2 (stomps) 15×N (lunge),-,-,-,-,-,-,100×N,1000,2,Very Small,-,80%
+100T Weight,25,All,1,63,-,-,HKD,250,1000,0,Very Small,-,80%
+Earthquake,0,All,64,2,-,-,HKD,500,1000,0,-,-,80%
+Horn,7×N,All,-,-,-,-,-,100×N,1000×2,1,Very Small,-,80%
+Meteors,36(1x),Guard Crush,-,-,-,-,-,100,1000xN,4,Very Small,-,80%

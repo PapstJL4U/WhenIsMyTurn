@@ -1,12 +1,12 @@
-,input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-0,[4]6H,Hammer Fall,58,All,18~62,2f,26,-9,SKD (+22),2500,1000,-,Mid,-,80%
-1,[4]6H P,Hammer Fall Break,N/A,N/A,-,-,27,-,-,-,-,-,-,-,-
-2,632146P,Potemkin Buster,175,Ground Throw,5,4,37,-,-,-,2500,-,-,1 ~ 8F Throw,50%
-3,623H,Heat Knuckle,"0,8×7,60",Air Guard Crush,12,4,18,+10~+1,KD/Wall Break,3750,2500,-,Very Small,-,50%
-4,236P,Mega Fist,50,High,25,7,16,-6,-2,1500,1000,3,Mid,-,80%
-5,214P,Mega Fist,50,High,25,7,6,+4,+8,1500,1000,3,Mid,-,80%
-6,2146K~P,Mega Fist,80,High,26-27,7,12,-2,+2,1500,1000,3,Mid,-,80%
-7,236S,Slide Head,0,Low (Guard Crush),29,2,28,0,KD,375,1000,4,Very Small,-,80%
-8,63214S,F.D.B.,55 [75],All,21~38 [38],3,20,-6,KD,2000,1000,3,Mid,4 ~ [20~37F] Reflect,100%
-9,Reflect Projectile,-,50,All,1,-,-,+11,SKD (+46),500,1000,3,Very Small,-,80%
-10,214H,Garuda Impact,63,All (Guard Crush),28,11,24,+19,+17~35,2500,2000,-,Large,-,100%
+input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+[4]6H,Hammer Fall,58,All,18~62,2f,26,-9,SKD (+22),2500,1000,-,Mid,-,80%
+[4]6H P,Hammer Fall Break,N/A,N/A,-,-,27,-,-,-,-,-,-,-,-
+632146P,Potemkin Buster,175,Ground Throw,5,4,37,-,-,-,2500,-,-,1 ~ 8F Throw,50%
+623H,Heat Knuckle,"0,8×7,60",Air Guard Crush,12,4,18,+10~+1,KD/Wall Break,3750,2500,-,Very Small,-,50%
+236P,Mega Fist,50,High,25,7,16,-6,-2,1500,1000,3,Mid,-,80%
+214P,Mega Fist,50,High,25,7,6,+4,+8,1500,1000,3,Mid,-,80%
+2146K~P,Mega Fist,80,High,26-27,7,12,-2,+2,1500,1000,3,Mid,-,80%
+236S,Slide Head,0,Low (Guard Crush),29,2,28,0,KD,375,1000,4,Very Small,-,80%
+63214S,F.D.B.,55 [75],All,21~38 [38],3,20,-6,KD,2000,1000,3,Mid,4 ~ [20~37F] Reflect,100%
+Reflect Projectile,-,50,All,1,-,-,+11,SKD (+46),500,1000,3,Very Small,-,80%
+214H,Garuda Impact,63,All (Guard Crush),28,11,24,+19,+17~35,2500,2000,-,Large,-,100%
