@@ -22,10 +22,12 @@ def minus_on_Block(dataframe: pd.DataFrame, type:str="None", character:str="None
     """Count the moves that are minus on Block"""
     number_of_all_moves = len(dataframe.index.to_list())
 
+    """ not needed anymore
     if "jack" in character.lower() or "happy" in character.lower(): #jacko/hc exception, because ofcourse there is one in html
         minus = dataframe.loc[dataframe['On-Block'].str.startswith("-")] #select moves that are negative or unknown, but not N/A
-    else:
-        minus = dataframe.loc[dataframe['onBlock'].str.startswith("-")] #select moves that are negative or unknown, but not N/A
+    else:"""
+    
+    minus = dataframe.loc[dataframe['onBlock'].str.startswith("-")] #select moves that are negative or unknown, but not N/A
     number_of_minus_moves = len(minus.index.to_list())
     percentage =  (number_of_minus_moves / number_of_all_moves)*100
     sentence = f"{round(percentage,2)}% of {character} {type} moves are negative on Block({number_of_minus_moves}/{number_of_all_moves})."
