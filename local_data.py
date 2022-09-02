@@ -2,8 +2,12 @@ import pandas as pd
 import os
 def get_moves_from_csv(website:str="None")->pd.DataFrame:
     """returns tha moves from locally sourced ingredients, ehm csv"""
-    name = website.split("/")[-2]
+    name = website.split("/")[-2] #get name fro web addresse
 
+
+    #iterate over all files and find files, that include "name"
+    #load everything as string, because frame data is mixed data
+    #seperate normals, specials, overdrives and others for easier use
     for file in os.listdir("csv"):
         if name.lower() in file.lower():
             f = os.path.join("csv", file)

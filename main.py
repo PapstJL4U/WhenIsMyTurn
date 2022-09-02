@@ -9,11 +9,13 @@ import numpy as np
 import local_data as ld
 
 __types:int=4
-"""Gives the range for for-loops to interate over types of moves:
-    min 2: only one of these: (Normals, Specials, Overdrives, Other)
-    max 5: over all 4
-    the last is always the SUM
-"""
+"""Gives the range for the for-loops to interate over the types of moves:
+    min 2: only Normals
+    3: Normals and Specials
+    4: Normals, Specials and Overdrives
+    max 5: N,S,O and Other 
+    the last is always the SUM"""
+
 __local = True # set true if you want to use local csv files from the csv folder
 
 def minus_on_Block(dataframe: pd.DataFrame, type:str="None", character:str="None")->int:
@@ -24,10 +26,10 @@ def minus_on_Block(dataframe: pd.DataFrame, type:str="None", character:str="None
         minus = dataframe.loc[dataframe['On-Block'].str.startswith("-")] #select moves that are negative or unknown, but not N/A
     else:
         minus = dataframe.loc[dataframe['onBlock'].str.startswith("-")] #select moves that are negative or unknown, but not N/A
-    number_of_non_plus_mives = len(minus.index.to_list())
-    percentage =  (number_of_non_plus_mives / number_of_all_moves)*100
-    sentence = f"{round(percentage,2)}% of {character} {type} moves are negative on Block({number_of_non_plus_mives}/{number_of_all_moves})."
-    return number_of_non_plus_mives, number_of_all_moves
+    number_of_minus_moves = len(minus.index.to_list())
+    percentage =  (number_of_minus_moves / number_of_all_moves)*100
+    sentence = f"{round(percentage,2)}% of {character} {type} moves are negative on Block({number_of_minus_moves}/{number_of_all_moves})."
+    return number_of_minus_moves, number_of_all_moves
 
 def all()->None:
     """Create the data sheet for all characters, the extremes and a summaray"""

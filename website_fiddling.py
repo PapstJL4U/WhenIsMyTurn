@@ -79,9 +79,11 @@ def fill_data_frame(list:list[str], df:pd.DataFrame)->pd.DataFrame:
     return pd.DataFrame(moves, columns=df.columns)
 
 def strip_wn(value:str):
+    """eliminate any whitespace or newlines"""
     return value.strip("\n").strip(" ").strip("\n").strip(" ")
 
 def save(name:str="None", type:str="csv", df:pd.DataFrame=None)->None:
+    """save data as either html or csv"""
     if type=="csv":
         df.to_csv(r"csv/"+name+".csv", index=False)
     elif type=="html":
