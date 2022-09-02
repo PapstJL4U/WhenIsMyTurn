@@ -6,8 +6,6 @@ import requests
 
 def find_Moves(website:str)->pd.DataFrame:
         """opens the full framedata website and finds normals, specials, overdrives and other moves"""
-        folder = r"res"
-        name = website.split("/")[-2]
 
         try:
         #load website and find the 4 tables
@@ -41,11 +39,12 @@ def find_Moves(website:str)->pd.DataFrame:
         other_moves = tables[3].find("tbody").findAll("tr")
         other_data_frame= fill_data_frame(other_moves,other_data_frame)
         
+        name = website.split("/")[-2]
         try:
-            other_data_frame.to_html(folder+"/"+name+"_others.html")
-            normal_data_frame.to_html(folder+"/"+name+"_normals.html")
-            special_data_frame.to_html(folder+"/"+name+"_specials.html")
-            overdrive_data_frame.to_html(folder+"/"+name+"_overdrives.html")
+            save(name+"_normals", "html", normal_data_frame)
+            save(name+"_specials", "html", special_data_frame)
+            save(name+"_overdrives", "html", overdrive_data_frame)
+            save(name+"_others", "html", other_data_frame)
         except Exception:
             print(Exception)
         return normal_data_frame, special_data_frame, overdrive_data_frame, other_data_frame
@@ -75,3 +74,11 @@ def fill_data_frame(list:list[str], df:pd.DataFrame)->pd.DataFrame:
 
 def strip_wn(value:str):
     return value.strip("\n").strip(" ").strip("\n").strip(" ")
+
+def save(name:str="None", type:str="csv", df:pd.DataFrame=None)->None:
+    if type=="csv":
+        df.to_csv(r"csv/"+name+".csv")
+    elif type=="html":
+        df.to_html(r"html/"+name+".html")
+    else:
+        df.to_clipboard()

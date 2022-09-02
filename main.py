@@ -3,6 +3,7 @@
 """
 from glob import escape
 import pprint as pp
+from re import M
 import website_fiddling as wf
 import dustloop_links as dl
 import pandas as pd
@@ -21,11 +22,14 @@ def minus_on_Block(dataframe: pd.DataFrame, type:str="Normals", character:str="G
     sentence = f"{round(percentage,2)}% of {character} {type} moves are negative on Block({number_of_non_plus_mives}/{number_of_all_moves})."
     return number_of_non_plus_mives, number_of_all_moves
 
-def all():
+def all()->None:
     super_data = np.array([ [0]*3 for i in range(5)])
+    extremes = np.array([ [1]*4 for i in range(5)])
+    
     #breakpoint()
-    for char in dl.characters: 
-        temp = np.array(single(char))   
+    for index,char in enumerate(dl.characters): 
+        temp = np.array(single(char))
+        extremes = find_min_or_max_minus_frames(index, "+", extremes, temp)
         super_data = np.add(super_data,temp)
     for i in range(5):
         super_data[i][2] = round(super_data[i][0]/super_data[i][1],2) #evalute percentage per type and for the sum
@@ -36,6 +40,9 @@ def all():
     types= ['Normals', 'Specials', 'Overdrives', 'Other', "Sum"]
     df = pd.DataFrame(super_data, index=types, columns=col)
     df.to_html(r"res/all.html")
+    col.insert(0,"Character")
+    extr = pd.DataFrame(extremes, index=types, columns=col)
+    extr.to_html(r"res/extremes.html")
 
 def single(dl_name:str)->list:
     """Get data for a single character"""
@@ -59,6 +66,24 @@ def single(dl_name:str)->list:
     pp.pprint(data)
     
     return data
+
+def find_min_or_max_minus_frames(name_index:int=0, char:str="+", extremes:np.array=None, new:np.array=None)->np.array:
+    """returns the data with
+    better (char:+) aka less % 
+    or worse (char:-) aka more % minus frames"""
+    #breakpoint()
+    for i in range(5):
+        if char=="+":
+            extremes[i][1:] = extremes[i][1:] if extremes[i][3]<new[i][2] else new[i][:]
+            extremes[i][0] = extremes[i][0] if extremes[i][3]<new[i][2] else name_index
+        elif char=="-":
+            extremes[i][1:] = extremes[i][1:] if extremes[i][3]>new[i][2] else new[i][:]
+            extremes[i][0] = extremes[i][0] if extremes[i][3]>new[i][2] else name_index          
+        else:
+            print("'char' should be '+' or '-'.")
+            raise ValueError
+
+    return extremes
 
 if __name__ == "__main__":
         #single(dl.Ramlethal)

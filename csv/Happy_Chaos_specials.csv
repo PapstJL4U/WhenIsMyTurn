@@ -1,0 +1,13 @@
+,Input,Name,Damage,Guard,Startup,Active,Recovery,On-Block,On-Hit,riscGain,riscLoss,Attack Level,Counter Type,Invuln,Proration
+0,H,At the Ready,-,-,0,-,-,-,-,-,-,-,-,-,-
+1,236S,At the Ready,42,All,9,3,13,+3,KD,2500,1000,4,Large,-,90%
+2,236S H,Fire,30 [20],All,1,2,-,+23,+26,500,1000,1,Very Small,-,80%
+3,214S,Steady Aim,-,-,18,-,-,-,-,-,-,-,-,-,-
+4,214S H,Fire,55 [35],Guard Crush (43f) [All],1,2,43,"<a href=""/w/GGST/Happy_Chaos/Frame_Data#Fire_Table"" title=""GGST/Happy Chaos/Frame Data"">More info</a>",KD,500,1000,3,Very Small,-,80%
+5,236S 2H,Cancel Aim,-,-,-,-,-,-,-,-,-,-,-,-,-
+6,214S 214S,Cancel Aim,-,-,-,-,16 total,-,-,-,-,-,-,-,-
+7,22P,Reload,-,-,23,-,23~77 total,-,-,-,-,-,-,-,-
+8,214P,Focus,-,-,-,-,46 total,-,-,-,-,-,-,-,-
+9,214K,Roll,-,-,-,-,35 total,-,-,-,-,-,-,4~15 Upper Body,-
+10,236K,Scapegoat,-,-,10,180 [45],43 total,-,-,-,-,-,-,10~30F Airborne,-
+11,236P,Curse,-,-,-,-,29 total,-,-,-,-,-,-,-,-

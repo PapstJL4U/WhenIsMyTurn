@@ -1,0 +1,10 @@
+,input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+0,[4]6S,Sickle Flash,15×3,All,24,15,29,-19~-9,KD,200,1000,3,Very Small,-,80%
+1,[4]6S 8,Soaring Chain Strike,30,All,8,16,34,-11,HKD,500,1000,3,Mid,-,80%
+2,[4]6S 2,Spinning Chain Strike,15×5,Low,7,36 [79],19,-6,HKD,225×5,1000,2,Mid,-,90%
+3,[4]6S S,Winter Cherry,40 [60],All,18 [22],10,24,-3 [+10],KD,500,1000,3 [4],Very Small,-,80%
+4,41236H,Winter Mantis,61 [62],Ground Throw,28,20,34,-,HKD,-,2500,-,-,-,50%
+5,214S,Rainwater,40,All,24,3,21,+3,KD,2500,2000,3,Mid,-,90%
+6,214H,Snail,45,All,14,12,29,-24,KD,2000,1000,3,Mid,-,100%
+7,j.214H,Snail,45,All,14,9,Until L+10,-19,KD,2000,1000,3,Mid,-,100%
+8,j.623H,Axl Bomber,80,All,9,10,Until L+7,-22,HKD,2500,1000,4,Large,-,100%

@@ -1,0 +1,13 @@
+,input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+0,236P,Alpha Blade (Horizontal),38,All,29,3,19,-4,KD,500,1000,1,Very Small,-,80%
+1,j.236P,Alpha Blade (Horizontal),38,All,29,3,33,-,KD,500,1000,1,Very Small,-,80%
+2,236K,Alpha Blade (Diagonal),36,All,27,3,17,-2,KD,500,2000,1,Very Small,-,80%
+3,j.236K,Alpha Blade (Diagonal),35,All,32~47,3,21,-6,KD,500,2000,1,Very Small,-,80%
+4,623S,Beta Blade,"30, 26",All,9,20,23,-27,KD,700×2,1000,2,Large,1~10 Strike,80%
+5,j.623S,Beta Blade,"30, 26",All,9,20,Until L+8,-,KD,700×2,1000,2,Large,1~10 Strike,80%
+6,236H,Gamma Blade,30,All,25,7,Total 42,+9,+12,500,2000,2,Very Small,-,80%
+7,236S,Resshou,28,All,13,5,16,-4,-1,2000,1000,3,Mid,-,100%
+8,236S 236S,Rokusai,35,Low,8,2,21,-6,-3,1500,1000,3,Mid,-,90%
+9,236S 236K,Senshuu,40,High,20,6,20,-9,HKD,1500,1000,3,Large,-,80%
+10,63214S,Genrouzan,"20,20,67",Throw,27,11,15,N/A,HKD,-,2500,-,-,-,50%
+11,j.214P,Shuriken,10,All,22,Until Hit,Total ??,-,-,500,1000,0,Very Small,-,80%

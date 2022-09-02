@@ -1,0 +1,4 @@
+,input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+0,236236S,Tsurane Sanzu-watashi,"45×2, 100",All,8+1,3(20)3(36)3,48,-32,HKD (+42),800×3,1000,4,Mid,1~10 Full,100%
+1,214214P,Kenjyu,110,All (Guard Crush),8+3,-,-,+5,HKD,500,1000,4,Small,-,-
+2,j.214214P,Kenjyu,110,All (Guard Crush),11+3,-,-,-,HKD,500,1000,4,Small,-,-

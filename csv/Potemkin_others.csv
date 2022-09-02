@@ -1,0 +1,3 @@
+,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
+0,Ground Throw,90,Ground Throw,2,3,38,N/A,HKD +55,-,2500,-,-,-,50%
+1,Air Throw,90,Air Throw,2,3,Until Landing + 10,N/A,KD,-,2500,-,-,-,50%
