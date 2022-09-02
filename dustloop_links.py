@@ -26,3 +26,9 @@ Zato_1: str = "https://www.dustloop.com/w/GGST/Zato-1/Frame_Data"
 
 characters = (Anji, Bridget, Giovanna, I_No, Leo, Nagoriyuki, Sol, Axl, Chipp, Goldlewis, Jack_O, May,
                 Potemkin, Testament, Faust, Baiken, Happy_Chaos, Ky_Kiske, Millia, Ramlethal, Zato_1)
+
+def name_by_index(index:int=0)->str:
+    return characters[index].split("/")[-2]
+
+def name_by_index(index:float=0.0)->str:
+    return characters[int(index)].split("/")[-2]
