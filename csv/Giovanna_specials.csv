@@ -1,6 +1,6 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-236K,Trovao,48,All,27,10,15,+4,+7,2500,2000,4,Mid,-,90%
-214K,Sepultura,38,All,13,3,20,-4,HKD,2500,2000,4,Mid,-,90%
+236K,Trovao,48,All,27,10,15,+4,+7,2500,2000,4,Mid,u,90%
+214K,Sepultura,38,All,13,3,20,-4,HKD,2500,2000,4,Mid,u,90%
 623S,Sol Nascente,40,All,7,8,21,-15,KD,1500,1000,4,Mid,upper body invuln 1~6,90%
-214S,Sol Poente,"40, 30","All, High",[4] 27,6(20)3,21,-5,HKD,"2000, 1875",1480,4,Very Small,-,"100%, 80%"
-j.214S,Sol Poente,"20, 30","All, High",[4] 27,6(20)3,Until L+12,-,HKD,"2000, 1875",1480,4,Very Small,-,"100%, 80%"
+214S,Sol Poente,"40, 30","All, High",[4] 27,6(20)3,21,-5,HKD,"2000, 1875",1480,4,Very Small,u,"100%, 80%"
+j.214S,Sol Poente,"20, 30","All, High",[4] 27,6(20)3,Until L+12,u,HKD,"2000, 1875",1480,4,Very Small,u,"100%, 80%"

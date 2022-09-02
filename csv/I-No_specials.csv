@@ -1,10 +1,10 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-236S,Stroke the Big Tree,36,Low,16,6,15,-7,-,-,1000,2,Mid,5~15F Low Profile,90%
-236H,Stroke the Big Tree,42,Low,28,5,16,-2,-,-,1000,4,Mid,9~27F Low Profile,90%
-j.236K,Sultry Performance,35[50],All,10,Until Landing,Until Landing + 18,-7~(-2) [-1],-,-,1000,2[4],Very Small,-,100%
-j.236S,Sultry Performance,35[50],All,10,Until Landing,Until Landing + 18,-7~(-4) [-2],-,-,1000,2[4],Very Small,-,100%
-j.236H,Sultry Performance,"10×2,20[10×4,20]",All,9,32,Until Landing + 6,?(-7),-,-,1000,2[4],Very Small,-,100%
-214P,Antidepressant Scale,12+[9×4],All,29,-,Total 51,-16,-,-,1000,0,Very Small,-,80%
-j.214P,Antidepressant Scale,12+[9×4],All,28,-,Until Landing + 6,-16,-,-,1000,0,Very Small,-,80%
-214K,Chemical Love,45,All,11,14,22,-2,-,-,1000,4,Very Small,-,80%
-j.214K,Chemical Love,45,All,11,14,Until Landing + 7,-,-,-,1000,4,Very Small,-,80%
+236S,Stroke the Big Tree,36,Low,16,6,15,-7,u,u,1000,2,Mid,5~15F Low Profile,90%
+236H,Stroke the Big Tree,42,Low,28,5,16,-2,u,u,1000,4,Mid,9~27F Low Profile,90%
+j.236K,Sultry Performance,35[50],All,10,Until Landing,Until Landing + 18,-7~(-2) [-1],u,u,1000,2[4],Very Small,u,100%
+j.236S,Sultry Performance,35[50],All,10,Until Landing,Until Landing + 18,-7~(-4) [-2],u,u,1000,2[4],Very Small,u,100%
+j.236H,Sultry Performance,"10×2,20[10×4,20]",All,9,32,Until Landing + 6,?(-7),u,u,1000,2[4],Very Small,u,100%
+214P,Antidepressant Scale,12+[9×4],All,29,u,Total 51,-16,u,u,1000,0,Very Small,u,80%
+j.214P,Antidepressant Scale,12+[9×4],All,28,u,Until Landing + 6,-16,u,u,1000,0,Very Small,u,80%
+214K,Chemical Love,45,All,11,14,22,-2,u,u,1000,4,Very Small,u,80%
+j.214K,Chemical Love,45,All,11,14,Until Landing + 7,u,u,u,1000,4,Very Small,u,80%

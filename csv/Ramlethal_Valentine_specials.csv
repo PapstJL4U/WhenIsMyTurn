@@ -1,11 +1,11 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-236S,Bajoneto,"25, 30",All,20,-,Total 37,+9,22~40,500,2000,2,Very Small,-,80%
-236H,Bajoneto,"25, 30",All,20,-,Total 43,+3,KD,500,2000,2,Very Small,-,80%
-623P,Dauro,35,All,11,3,27,-10,+5,2500,2000,4,Mid,-,100%
-214K,Sildo Detruo,40,Mid,30,2,13,+2,+6,2000,1000,3,Mid,-,80%
-j.214K,Sildo Detruo,40,Mid,30,Until L,-,-3~+3,+3~+6,2000,1000,3,Mid,-,80%
-214H,Sabrubato,100 [75] {50},All,19,4,42,-27 [-27] {-32},KD,2500 [2500] [1500],2000,4 [4] {2},Large,-,100%
-214P,Erarlumo,30,All,16,7,12,-5,+10,2500,1000,2,Mid,-,100%
-214P 214P,Erarlumo,35 [50],All,9,4,25,-12 [-10],-6 [KD],1500 [2000],1000,3 [4],Mid,-,100%
-214P 214P 214P,Erarlumo,40 [70],All,11,6,38,-25,HKD,2500,1000,4,Large,-,100%
-j.214S,Agressa Ordono,"30,30 [24,30] [30,24] {24,24}",All,12,4(10)4,24,-,KD,"1000×2 [700, 1000] [1000, 700] {700×2}",1000 (Once),3,Very Small,-,100%
+236S,Bajoneto,"25, 30",All,20,u,Total 37,+9,22~40,500,2000,2,Very Small,u,80%
+236H,Bajoneto,"25, 30",All,20,u,Total 43,+3,KD,500,2000,2,Very Small,u,80%
+623P,Dauro,35,All,11,3,27,-10,+5,2500,2000,4,Mid,u,100%
+214K,Sildo Detruo,40,Mid,30,2,13,+2,+6,2000,1000,3,Mid,u,80%
+j.214K,Sildo Detruo,40,Mid,30,Until L,u,-3~+3,+3~+6,2000,1000,3,Mid,u,80%
+214H,Sabrubato,100 [75] {50},All,19,4,42,-27 [-27] {-32},KD,2500 [2500] [1500],2000,4 [4] {2},Large,u,100%
+214P,Erarlumo,30,All,16,7,12,-5,+10,2500,1000,2,Mid,u,100%
+214P 214P,Erarlumo,35 [50],All,9,4,25,-12 [-10],-6 [KD],1500 [2000],1000,3 [4],Mid,u,100%
+214P 214P 214P,Erarlumo,40 [70],All,11,6,38,-25,HKD,2500,1000,4,Large,u,100%
+j.214S,Agressa Ordono,"30,30 [24,30] [30,24] {24,24}",All,12,4(10)4,24,u,KD,"1000×2 [700, 1000] [1000, 700] {700×2}",1000 (Once),3,Very Small,u,100%

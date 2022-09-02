@@ -1,10 +1,10 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-236S/H,Stop and Dash,30,All,15,21,3,-4,-,500,1000,2,Very Small,-,80%
-214S/H,Stop and Dash,30,All,130,~,~,~,~,500,1000,2,Very Small,-,80%
-214K,Rolling Movement,32,All,20,Until Landing,0,+16 (Airborne),+19 (Airborne),2000,1000,3,Very Small,-,90%
+236S/H,Stop and Dash,30,All,15,21,3,-4,u,500,1000,2,Very Small,u,80%
+214S/H,Stop and Dash,30,All,130,u,u,u,u,500,1000,2,Very Small,u,80%
+214K,Rolling Movement,32,All,20,Until Landing,0,+16 (Airborne),+19 (Airborne),2000,1000,3,Very Small,u,90%
 623P,Starship,16X4,All,9,"3,3,3,3",39,-28,KD,300×4,1000,2,Large,1~11F Strike,60%
-236K,Kick Start My Heart,29,All,10,25,9,-20~+4,-17~+4,1500,1000,2,Mid,-,90%
-236K P,Brake,21,All,7,7,19,-6,-,500,1000,2,Very Small,-,80%
-236K K,Shoot,37,All,3,20,24,-33,~,1500,1000,2,Mid,3~??F Airborne,90%
-j.236K,Roger Dive,"25, 35",All,25,~,15,-5,-,700×2,1000,2,Very Small,-,90%
-63214P,Rock the Baby,100,Ground / Air Throw,26,2,28,N/A,N/A,-,2500,4,-,-,50%
+236K,Kick Start My Heart,29,All,10,25,9,-20~+4,-17~+4,1500,1000,2,Mid,u,90%
+236K P,Brake,21,All,7,7,19,-6,u,500,1000,2,Very Small,u,80%
+236K K,Shoot,37,All,3,20,24,-33,u,1500,1000,2,Mid,3~??F Airborne,90%
+j.236K,Roger Dive,"25, 35",All,25,u,15,-5,u,700×2,1000,2,Very Small,u,90%
+63214P,Rock the Baby,100,Ground / Air Throw,26,2,28,u,u,u,2500,4,u,u,50%

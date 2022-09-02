@@ -1,8 +1,8 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-[4]6S,Mr. Dolphin Horizontal,30,All,7,9 [18],11 (26 OH),-5,-2,1500,1000,2,Mid,-,-
-[4]6H,Mr. Dolphin Horizontal,40,All,25,9 [18],11 (20 OH),+5,+8,2000,1000,4,Mid,-,-
-[2]8S,Mr. Dolphin Vertical,40,"All, High",6,19,7 (21 OH),0,-,"1500, 1125",2000,2,Mid,-,-
-[2]8H,Mr. Dolphin Vertical,45,"All, High",11,27,8 (19 OH),+6 airborne,-,"2000, 1500",2000,3,Mid,-,-
-623K,Overhead Kiss,"30, 40",Throw,6,1,39,N/A,HKD,-,2500,-,-,1~6F Throw,50%
-214P,Arisugawa Sparkle,50,All,48,6,Total 45,+29,+32,200,1000,2,Very Small,-,80%
-214K,Arisugawa Sparkle,50,All,48,10,Total 45,+29,+32,200,1000,2,Very Small,-,80%
+[4]6S,Mr. Dolphin Horizontal,30,All,7,9 [18],11 (26 OH),-5,-2,1500,1000,2,Mid,u,u
+[4]6H,Mr. Dolphin Horizontal,40,All,25,9 [18],11 (20 OH),+5,+8,2000,1000,4,Mid,u,u
+[2]8S,Mr. Dolphin Vertical,40,"All, High",6,19,7 (21 OH),0,u,"1500, 1125",2000,2,Mid,u,u
+[2]8H,Mr. Dolphin Vertical,45,"All, High",11,27,8 (19 OH),+6 airborne,u,"2000, 1500",2000,3,Mid,u,u
+623K,Overhead Kiss,"30, 40",Throw,6,1,39,u,HKD,u,2500,u,u,1~6F Throw,50%
+214P,Arisugawa Sparkle,50,All,48,6,Total 45,+29,+32,200,1000,2,Very Small,u,80%
+214K,Arisugawa Sparkle,50,All,48,10,Total 45,+29,+32,200,1000,2,Very Small,u,80%

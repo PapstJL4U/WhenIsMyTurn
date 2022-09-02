@@ -1,4 +1,4 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-632146H,Megalomania,13×18 (17×11),"Ground Throw, All",11+0(41),-,-,N/A(-18),-,-,1000×18 (1000×11),N/A(2),-,-,100%
-632146S,Ultimate Fortissimo,"40,20×2,100",All (Guard Crush),7+2,4 (42) 9,13,+26,-,-,1000×2,4,-,Full F1~11,100%
-j.632146S,Ultimate Fortissimo,"20×2,100",All (Guard Crush),5+3,-,-,+37,-,-,1000×2,-,-,-,100%
+632146H,Megalomania,13×18 (17×11),"Ground Throw, All",11+0(41),u,u,N/A(-18),u,u,1000×18 (1000×11),N/A(2),u,u,100%
+632146S,Ultimate Fortissimo,"40,20×2,100",All (Guard Crush),7+2,4 (42) 9,13,+26,u,u,1000×2,4,u,Full F1~11,100%
+j.632146S,Ultimate Fortissimo,"20×2,100",All (Guard Crush),5+3,u,u,+37,u,u,1000×2,u,u,u,100%

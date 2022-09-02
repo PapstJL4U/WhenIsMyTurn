@@ -65,9 +65,15 @@ def fill_data_frame(list:list[str], df:pd.DataFrame)->pd.DataFrame:
             if len(value) == 2:
                 value = value[1]
             if len(value.contents)>0:
-                move.append(strip_wn(str(value.contents[0])))
+                if value.contents[0]=="~" or \
+                    value.contents[0]=="N/A" or \
+                    value.contents[0]=="NA" or \
+                    value.contents[0]=="n/a":
+                    move.append("u")
+                else:
+                    move.append(strip_wn(str(value.contents[0])))
             elif i>0:
-                move.append("-")
+                move.append("u")
         moves.append(move)
 
     return pd.DataFrame(moves, columns=df.columns)

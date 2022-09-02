@@ -1,4 +1,4 @@
 input,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-6D or 4D,80,Ground Throw,2,3,38,-,HKD +54,-,2500,-,-,none,-
-j.6D or j.4D,80,Air Throw,2,3,Until L+10,-,-,-,2500,-,-,none,-
-66,-,-,-,-,Total 22,-,-,-,-,-,-,-,-
+6D or 4D,80,Ground Throw,2,3,38,u,HKD +54,u,2500,u,u,none,u
+j.6D or j.4D,80,Air Throw,2,3,Until L+10,u,u,u,2500,u,u,none,u
+66,u,u,u,u,Total 22,u,u,u,u,u,u,u,u

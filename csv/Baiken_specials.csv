@@ -1,8 +1,8 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-236K,Tatami Gaeshi,"45,25",All,15,3 (13) 13,5,-3,KD (+42),"1000,200","2000,1000",3 [0],"Mid, Very Small",-,90%
-j.236K,Tatami Gaeshi,40,All,20,Until Landing,Landing+7,-,-,500,1000,2 [0],Very Small,-,80%
-41236S,Kabari,30,All,31,11,16,+2,+5,2500,1000,4,Mid,-,100%
-41236H,Kabari,30,All,18,11,19,-3,0,2500,1000,4,Mid,-,100%
-41236H~H,Kabari Followup,48,All,11 [23],3,14,-7,HKD (+58),2000,1000,3,Mid,-,100%
-j.236S,Youzansen,50,High,9,12,Landing+7,-14 (,+6 (,1125,1000,2,Mid,-,80%
-236P,Hiiragi,130,-,1,6,32,-,KD (+14) [+4],-,2500 [1000],-,-,F1~6 Strike,50%
+236K,Tatami Gaeshi,"45,25",All,15,3 (13) 13,5,-3,KD (+42),"1000,200","2000,1000",3 [0],"Mid, Very Small",u,90%
+j.236K,Tatami Gaeshi,40,All,20,Until Landing,Landing+7,u,u,500,1000,2 [0],Very Small,u,80%
+41236S,Kabari,30,All,31,11,16,+2,+5,2500,1000,4,Mid,u,100%
+41236H,Kabari,30,All,18,11,19,-3,0,2500,1000,4,Mid,u,100%
+41236H~H,Kabari Followup,48,All,11 [23],3,14,-7,HKD (+58),2000,1000,3,Mid,u,100%
+j.236S,Youzansen,50,High,9,12,Landing+7,-14 (,+6 (,1125,1000,2,Mid,u,80%
+236P,Hiiragi,130,u,1,6,32,u,KD (+14) [+4],u,2500 [1000],u,u,F1~6 Strike,50%

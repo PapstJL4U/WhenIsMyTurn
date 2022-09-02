@@ -1,4 +1,4 @@
 Input,Name,Damage,Guard,Startup,Active,Recovery,On-Block,On-Hit,R.I.S.C. Gain,R.I.S.C. Loss,Attack Level,Counter Type,Invuln,Proration
-632146P,Forever Elysion Driver,179,Throw,10+1,2,58,-,HKD,-,1000,-,-,"All 1~12F, Throw 1~55F",100%
-236236S,Cheer Servant On (S),-,-,3,-,12,See Notes,-,-,-,-,-,Jack-O: None,-
-236236H,Cheer Servant On (H),-,-,3,-,12,See Notes,-,-,-,-,-,Jack-O: None,-
+632146P,Forever Elysion Driver,179,Throw,10+1,2,58,-,HKD,u,1000,u,u,"All 1~12F, Throw 1~55F",100%
+236236S,Cheer Servant On (S),u,-,3,u,12,See Notes,-,u,u,u,u,Jack-O: None,u
+236236H,Cheer Servant On (H),u,-,3,u,12,See Notes,-,u,u,u,u,Jack-O: None,u

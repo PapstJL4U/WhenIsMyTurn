@@ -1,5 +1,5 @@
 input,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-5P,20,All,7,5,7,-2,+1,500,1500,0,Small,None,-
+5P,20,All,7,5,7,-2,+1,500,1500,0,Small,None,u
 5K,24,All,7,3,12,-3,0,1000,1500,1,Small,None,80%
 c.S,15×2,All,7,"3,3",13,+1,+13,1000×2,1000,3,Mid,None,100%
 f.S,30,All,9,2,19,-7,-4,1500,1000,2,Mid,27-30F Head,90%

@@ -1,10 +1,10 @@
 input,name,damage,guard,startup,active,recovery,onBlock,onHit,riscGain,riscLoss,level,counter,invuln,prorate
-[4]6S,Graviert Wurde,20×2,All,10,31 or Until Hit*2,Total 54F,-16,-13,100×2,1000,2,Very Small,-,80%
-[4]6H,Graviert Wurde,16×4,All,23,Until Hit*4,Total 73F,+11,+14,100×4,1000,2,Very Small,-,80%
-[2]8S,Eisen Sturm,"28,25",All,9,"3,12",33,-28,-,"700, 1000",1000,"2,3",Large,1-9 Strike,80%
-[2]8H,Eisen Sturm,"28,25,28",All,10,"3,12(10)5",42,-52,-,"500, 600, 800",1000,"2,3,4",Large,1-10 Strike,80%
-236S,Kaltes Gestöber Erst,37,All,12,3,20,-6,-,2000,1000,3,Mid,-,100%
-236H,Kaltes Gestöber Zweit,41,All,23 [25],3,22 [16],-6 [+2],-,2500,1000,4,Mid,-,90%
-214S,Turbulenz,55,All,21,6,21,-8,-,2500,2000,4,Large,-,90%
-bt.214K,Gländzendes Dunkel,115,Ground Throw,30,3,42,-,-,-,2500,-,-,-,50%
-bt.214H,Blitzschlag,65,Guard Break,29,3,33,+21,-,2500,1000,4,Large,-,100%
+[4]6S,Graviert Wurde,20×2,All,10,31 or Until Hit*2,Total 54F,-16,-13,100×2,1000,2,Very Small,u,80%
+[4]6H,Graviert Wurde,16×4,All,23,Until Hit*4,Total 73F,+11,+14,100×4,1000,2,Very Small,u,80%
+[2]8S,Eisen Sturm,"28,25",All,9,"3,12",33,-28,u,"700, 1000",1000,"2,3",Large,1-9 Strike,80%
+[2]8H,Eisen Sturm,"28,25,28",All,10,"3,12(10)5",42,-52,u,"500, 600, 800",1000,"2,3,4",Large,1-10 Strike,80%
+236S,Kaltes Gestöber Erst,37,All,12,3,20,-6,u,2000,1000,3,Mid,u,100%
+236H,Kaltes Gestöber Zweit,41,All,23 [25],3,22 [16],-6 [+2],u,2500,1000,4,Mid,u,90%
+214S,Turbulenz,55,All,21,6,21,-8,u,2500,2000,4,Large,u,90%
+bt.214K,Gländzendes Dunkel,115,Ground Throw,30,3,42,u,u,u,2500,u,u,u,50%
+bt.214H,Blitzschlag,65,Guard Break,29,3,33,+21,u,2500,1000,4,Large,u,100%
