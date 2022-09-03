@@ -40,13 +40,15 @@ def find_Moves(website:str)->pd.DataFrame:
         other_data_frame= fill_data_frame(other_moves,other_data_frame)
         
         name = website.split("/")[-2]
+        file = "csv"
         try:
-            save(name+"_normals", "csv", normal_data_frame)
-            save(name+"_specials", "csv", special_data_frame)
-            save(name+"_overdrives", "csv", overdrive_data_frame)
-            save(name+"_others", "csv", other_data_frame)
+            save(name+"_normals", file, normal_data_frame)
+            save(name+"_specials", file, special_data_frame)
+            save(name+"_overdrives", file, overdrive_data_frame)
+            save(name+"_others", file, other_data_frame)
         except Exception:
             print(Exception)
+            
         return normal_data_frame, special_data_frame, overdrive_data_frame, other_data_frame
 
 def get_data_frame_from_list(list: list[str])->pd.DataFrame:
