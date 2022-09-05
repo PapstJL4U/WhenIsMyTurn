@@ -3,6 +3,7 @@ from statistics import NormalDist
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests
+import save_data as sd
 
 def find_Moves(website:str)->pd.DataFrame:
         """opens the full framedata website and finds normals, specials, overdrives and other moves"""
@@ -42,10 +43,10 @@ def find_Moves(website:str)->pd.DataFrame:
         name = website.split("/")[-2]
         file = "csv"
         try:
-            save(name+"_normals", file, normal_data_frame)
-            save(name+"_specials", file, special_data_frame)
-            save(name+"_overdrives", file, overdrive_data_frame)
-            save(name+"_others", file, other_data_frame)
+            sd.save(name+"_normals", file, normal_data_frame)
+            sd.save(name+"_specials", file, special_data_frame)
+            sd.save(name+"_overdrives", file, overdrive_data_frame)
+            sd.save(name+"_others", file, other_data_frame)
         except Exception:
             print(Exception)
             
@@ -83,12 +84,3 @@ def fill_data_frame(list:list[str], df:pd.DataFrame)->pd.DataFrame:
 def strip_wn(value:str):
     """eliminate any whitespace or newlines"""
     return value.strip("\n").strip(" ").strip("\n").strip(" ")
-
-def save(name:str="None", type:str="csv", df:pd.DataFrame=None)->None:
-    """save data as either html or csv"""
-    if type=="csv":
-        df.to_csv(r"csv/"+name+".csv", index=False)
-    elif type=="html":
-        df.to_html(r"html/"+name+".html")
-    else:
-        df.to_clipboard()
