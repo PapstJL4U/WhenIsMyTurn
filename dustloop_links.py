@@ -1,6 +1,4 @@
 """Just the list of frame data websites"""
-from re import I
-from sre_constants import CH_LOCALE
 
 Anji: str = "https://www.dustloop.com/w/GGST/Anji_Mito/Frame_Data"
 Bridget: str = "https://www.dustloop.com/w/GGST/Bridget/Frame_Data"
